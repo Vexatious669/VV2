@@ -35,7 +35,7 @@ namespace VV2
 
 		LogHelper::Init("VV2", FileMgr::GetProjectFile("./cout.log"));
 
-		LOGF(INFO, "Welcome to VV2V2! Build date: {} at {}", __DATE__, __TIME__);
+		LOGF(INFO, "Welcome to VV2! Build date: {} at {}", __DATE__, __TIME__);
 
 		g_HotkeySystem.RegisterCommands();
 		SavedLocations::FetchSavedLocations();
