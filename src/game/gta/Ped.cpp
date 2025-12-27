@@ -4,7 +4,7 @@
 #include "core/backend/ScriptMgr.hpp"
 #include "game/pointers/Pointers.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	Ped Ped::Create(uint32_t model, rage::fvector3 coords, float heading)
 	{

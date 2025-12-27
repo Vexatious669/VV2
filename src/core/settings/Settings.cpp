@@ -4,7 +4,7 @@
 #include "Settings.hpp"
 
 
-namespace YimMenu
+namespace VV2
 {
 	Settings::Settings() :
 	    m_SettingsFile(),

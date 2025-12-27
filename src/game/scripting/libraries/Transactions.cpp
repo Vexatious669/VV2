@@ -9,7 +9,7 @@
 #include "types/netshop/CNetShopTransaction.hpp"
 #include "game/backend/AnticheatBypass.hpp"
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	// TODO: use __gc and a std::vector
 	struct BasketTransaction

@@ -3,7 +3,7 @@
 #include <dbghelp.h>
 #include <winternl.h>
 
-namespace YimMenu
+namespace VV2
 {
 	StackTrace::StackTrace() :
 	    m_FramePointers(32)

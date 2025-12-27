@@ -4,7 +4,7 @@
 #include "game/gta/Natives.hpp"
 #include "game/gta/data/VehicleValues.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	const char* VehicleModel::GetModSlotName(Hash model, int vehicle, int mod_slot)
 	{

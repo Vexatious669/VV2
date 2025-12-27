@@ -11,7 +11,7 @@
 #include "game/gta/Natives.hpp"       // game import in core!
 #include "game/frontend/GUI.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	HotkeySystem::HotkeySystem() :
 	    IStateSerializer("hotkeys")

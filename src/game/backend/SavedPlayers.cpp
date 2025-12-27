@@ -10,7 +10,7 @@
 #include "types/socialclub/rlScGamerHandle.hpp"
 #include "types/socialclub/rlScTaskStatus.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static BoolCommand _AutoUpdateEnabled{"playerdbautoupdate", "Player Database Auto Update", "Automatically updates tracked player status every 3 minutes. This is required for tracking notifications to work", true};
 	static BoolCommand _PlayerTracking{"playerdbnotify", "Tracking Notifications", "Notifies you when the state of a player you track changes", true};
@@ -35,7 +35,7 @@ namespace YimMenu::Features
 	UpdateSavedPlayersNow _UpdateSavedPlayersNow{"playerdbupdatenow", "Update Saved Players Now", "Force-updates all saved players"};
 }
 
-namespace YimMenu
+namespace VV2
 {
 	static bool IsInJoinableSession(FetchedPlayerData::GameState state)
 	{

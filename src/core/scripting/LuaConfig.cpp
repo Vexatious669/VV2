@@ -1,7 +1,7 @@
 #include "LuaConfig.hpp"
 #include "core/filemgr/FileMgr.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	LuaConfig::LuaConfig(std::string_view script_name) :
 	    m_ConfigFile(FileMgr::GetProjectFile(std::string("./scripts/config/") + script_name.data() + ".json")),

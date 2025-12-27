@@ -2,7 +2,7 @@
 #include "core/util/Joaat.hpp"
 #include <array>
 
-namespace YimMenu
+namespace VV2
 {
 	static constexpr auto g_VehicleClassNames = std::to_array({"Compact",
 	    "Sedan",

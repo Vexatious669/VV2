@@ -5,7 +5,7 @@
 #include "game/gta/data/VehicleValues.hpp"
 #include "game/gta/data/Vehicles.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	Vehicle Vehicle::Create(std::uint32_t model, rage::fvector3 coords, float heading, bool setOnGroundProperly)
 	{

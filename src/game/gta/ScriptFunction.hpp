@@ -2,7 +2,7 @@
 #include "core/util/Joaat.hpp"
 #include "game/gta/ScriptPointer.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class ScriptFunction
 	{

@@ -5,7 +5,7 @@
 
 #include "types/script/scrProgram.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	std::optional<uint32_t> ScriptPatches::Patch::GetPC()
 	{

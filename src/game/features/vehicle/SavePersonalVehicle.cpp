@@ -10,7 +10,7 @@
 #include "types/script/locals/VehicleRewardData.hpp"
 #include "types/script/globals/FreemodeGeneral.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	void SavePersonalVehicle::RunScriptImpl()
 	{

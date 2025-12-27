@@ -2,7 +2,7 @@
 
 #include "core/filemgr/FileMgr.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	std::optional<int> PatternCache::GetCachedOffsetImpl(PatternHash hash)
 	{

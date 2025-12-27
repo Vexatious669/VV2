@@ -4,7 +4,7 @@
 #include "Heist/CayoPericoHeist.hpp"
 #include "Heist/DoomsdayHeist.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	std::shared_ptr<Category> BuildHeistModifierMenu()
 	{

@@ -3,7 +3,7 @@
 #include "core/scripting/LuaUtils.hpp"
 #include "core/util/Joaat.hpp"
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	static bool IsCoroutine(lua_State* state)
 	{

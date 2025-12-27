@@ -1,7 +1,7 @@
 #include "core/scripting/LuaLibrary.hpp"
 #include "core/scripting/LuaScript.hpp"
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	class Default : LuaLibrary
 	{

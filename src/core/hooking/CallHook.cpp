@@ -1,6 +1,6 @@
 #include "CallHook.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	CallHookMemory::CallHookMemory()
 	{

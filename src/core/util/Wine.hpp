@@ -3,7 +3,7 @@
 
 #include <optional>
 
-namespace YimMenu {
+namespace VV2 {
     inline std::optional<bool> InWine()
     {
         auto module = ModuleMgr.Get("ntdll.dll"_J);

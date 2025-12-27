@@ -4,7 +4,7 @@
 #include "game/gta/data/Weapons.hpp"
 
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class GivePlayerAllWeapon : public PlayerCommand
 	{

@@ -1,6 +1,6 @@
 #include "Category.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	void Category::Draw()
 	{

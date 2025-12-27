@@ -2,7 +2,7 @@
 #include "core/filemgr/FileMgr.hpp"
 #include "game/gta/Vehicle.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class SavedVehicles
 	{

@@ -7,7 +7,7 @@
 #include "core/backend/ScriptMgr.hpp"
 #include "types/script/globals/GlobalPlayerBD.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	namespace ApartmentHeist
 	{

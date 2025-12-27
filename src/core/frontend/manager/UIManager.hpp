@@ -3,7 +3,7 @@
 #include "Submenu.hpp"
 #include "core/frontend/manager/styles/Themes.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	// Enum to represent different UI themes, append when adding new themes
 	enum class UITheme

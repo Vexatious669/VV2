@@ -6,7 +6,7 @@
 #include "game/backend/Self.hpp"
 #include "game/pointers/Pointers.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	Vector3CommandItem::Vector3CommandItem(joaat_t id, std::optional<std::string> label_override) :
 	    m_Command(Commands::GetCommand<Vector3Command>(id)),

@@ -2,7 +2,7 @@
 #include "game/backend/Self.hpp"
 #include "game/gta/Natives.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class InfiniteSpecialAbility : public LoopedCommand
 	{

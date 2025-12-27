@@ -8,7 +8,7 @@
 #include "core/scripting/LuaManager.hpp"
 #include "core/util/Joaat.hpp"
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	static bool CheckLuaScripts(Player player, CScriptedGameEvent& event)
 	{

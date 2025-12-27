@@ -14,7 +14,7 @@
 #include "types/socialclub/rlGetAvatarsContext.hpp"
 #include "types/socialclub/rlScTaskStatus.hpp"
 
-namespace YimMenu::Network
+namespace VV2::Network
 {
 	void LaunchJoinType(JoinType to_launch)
 	{

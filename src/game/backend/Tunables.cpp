@@ -8,7 +8,7 @@
 #include "game/gta/Scripts.hpp"
 #include "types/script/scrProgram.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	struct TUNABLES_LAUNCH_DATA
 	{

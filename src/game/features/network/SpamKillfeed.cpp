@@ -4,7 +4,7 @@
 #include "game/backend/Players.hpp"
 #include "types/network/sync/nodes/ped/CPedHealthDataNode.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class SpamKillfeed : public BoolCommand
 	{

@@ -2,7 +2,7 @@
 #include "core/util/Joaat.hpp"
 #include "core/filemgr/CacheFile.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 #pragma pack(push, 1)
 	struct scrPointerSaveStruct

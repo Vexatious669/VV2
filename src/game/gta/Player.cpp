@@ -14,7 +14,7 @@
 #include "types/network/sync/nodes/vehicle/CVehicleProximityMigrationDataNode.hpp"
 #include "game/backend/Self.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	Player::Player(uint8_t id)
 	{

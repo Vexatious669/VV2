@@ -2,7 +2,7 @@
 #include "game/backend/PersonalVehicles.hpp"
 #include "game/pointers/Pointers.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class RequestPersonalVehicle : public Command
 	{

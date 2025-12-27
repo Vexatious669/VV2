@@ -4,7 +4,7 @@
 #include "game/gta/Player.hpp"
 #include "game/gta/Vehicle.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class Self
 	{

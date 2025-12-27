@@ -3,7 +3,7 @@
 #include "game/backend/PersonalVehicles.hpp"
 #include "game/pointers/Pointers.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class FixAllVehicles : public Command
 	{

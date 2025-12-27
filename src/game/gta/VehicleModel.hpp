@@ -1,7 +1,7 @@
 #pragma once
 #include "types/script/types.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class VehicleModel
 	{

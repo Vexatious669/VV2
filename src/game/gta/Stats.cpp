@@ -1,7 +1,7 @@
 #include "Stats.hpp"
 #include "game/gta/Natives.hpp"
 
-namespace YimMenu::Stats
+namespace VV2::Stats
 {
 	static void ConvertMPX(std::string& statName)
 	{

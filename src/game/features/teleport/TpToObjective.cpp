@@ -3,7 +3,7 @@
 #include "game/gta/Natives.hpp"
 #include "types/blip/BlipSprite.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static bool GetBlipLocationOfType(Vector3& location, int sprite)
 	{

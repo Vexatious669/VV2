@@ -2,7 +2,7 @@
 #include "core/commands/ListCommand.hpp"
 #include "game/backend/Self.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static std::vector<std::pair<int, const char*>> g_BoostBehavior = {
 	    {0, "Infinite"},

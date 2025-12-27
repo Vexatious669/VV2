@@ -3,7 +3,7 @@
 #include "core/scripting/LuaUtils.hpp"
 #include "game/gta/invoker/Invoker.hpp"
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	class Invoker : LuaLibrary
 	{

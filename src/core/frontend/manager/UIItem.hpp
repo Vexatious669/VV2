@@ -1,7 +1,7 @@
 #pragma once
 #include "core/util/Joaat.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	// Preferably, all items should be saved in a global instance to make UI elements searchable
 	class UIItem

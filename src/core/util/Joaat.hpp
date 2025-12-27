@@ -2,7 +2,7 @@
 #include <cstdint>
 #include <string_view>
 
-namespace YimMenu
+namespace VV2
 {
 	using joaat_t = std::uint32_t;
 
@@ -28,13 +28,13 @@ namespace YimMenu
 
 };
 
-inline consteval YimMenu::joaat_t operator""_J(const char* s, std::size_t n)
+inline consteval VV2::joaat_t operator""_J(const char* s, std::size_t n)
 {
-	YimMenu::joaat_t result = 0;
+	VV2::joaat_t result = 0;
 
 	for (std::size_t i = 0; i < n; i++)
 	{
-		result += YimMenu::ToLower(s[i]);
+		result += VV2::ToLower(s[i]);
 		result += (result << 10);
 		result ^= (result >> 6);
 	}

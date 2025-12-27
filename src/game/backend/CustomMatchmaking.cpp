@@ -10,7 +10,7 @@
 #include "core/backend/FiberPool.hpp"
 #include "core/backend/ScriptMgr.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static std::vector<std::pair<int, const char*>> g_RegionCodes = {
 	    {0, "CIS"},
@@ -85,7 +85,7 @@ namespace YimMenu::Features
 	    5};
 }
 
-namespace YimMenu
+namespace VV2
 {
 	static std::uint32_t GetIdHash(MatchmakingId* id)
 	{

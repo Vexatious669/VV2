@@ -5,7 +5,7 @@
 #include "NativeDefs.hpp"
 #include "core/util/Joaat.hpp"
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	class AreNativesLoadedResource : public LuaResource
 	{

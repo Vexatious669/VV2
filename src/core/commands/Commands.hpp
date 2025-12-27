@@ -2,7 +2,7 @@
 #include "core/util/Joaat.hpp"
 #include "core/settings/IStateSerializer.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class Command;
 	class LoopedCommand;

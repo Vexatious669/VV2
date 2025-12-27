@@ -3,7 +3,7 @@
 #include "game/gta/Scripts.hpp"
 #include "types/script/globals/GPBD_FM_3.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class ForceThunder : public LoopedCommand
 	{

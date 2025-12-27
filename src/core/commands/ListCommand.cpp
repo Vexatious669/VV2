@@ -1,7 +1,7 @@
 #include "ListCommand.hpp"
 #include "core/backend/FiberPool.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	void ListCommand::OnCall()
 	{

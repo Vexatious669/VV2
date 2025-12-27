@@ -2,7 +2,7 @@
 
 #include "ScriptMgr.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	void FiberPool::InitImpl(int num_fibers)
 	{

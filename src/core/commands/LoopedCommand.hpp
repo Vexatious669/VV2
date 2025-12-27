@@ -1,7 +1,7 @@
 #pragma once
 #include "BoolCommand.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class LoopedCommand : public BoolCommand
 	{

@@ -5,7 +5,7 @@
 #include "game/backend/Self.hpp"
 #include "core/util/Joaat.hpp"
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	// only use for internal testing
 	class Internal : LuaLibrary

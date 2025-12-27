@@ -1,7 +1,7 @@
 #pragma once
 #include <chrono>
 
-namespace YimMenu
+namespace VV2
 {
 	class RateLimiter
 	{

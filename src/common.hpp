@@ -28,7 +28,7 @@ using namespace al;
 
 #undef Yield
 
-namespace YimMenu
+namespace VV2
 {
 	using namespace std::chrono_literals;
 	using namespace std::string_view_literals;

@@ -4,7 +4,7 @@
 
 #include <game/gta/Natives.hpp>
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class CopsDispatch : public LoopedCommand
 	{

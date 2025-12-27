@@ -3,7 +3,7 @@
 #include "core/commands/StringCommand.hpp"
 #include "imgui.h"
 
-namespace YimMenu
+namespace VV2
 {
 	StringCommandItem::StringCommandItem(joaat_t id, std::optional<std::string> label_override) :
 	    m_Command(Commands::GetCommand<StringCommand>(id)),

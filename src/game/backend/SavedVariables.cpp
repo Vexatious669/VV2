@@ -6,7 +6,7 @@
 
 #include "types/script/scrThread.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	std::uint32_t SavedVariableBase::CalculateOffset()
 	{

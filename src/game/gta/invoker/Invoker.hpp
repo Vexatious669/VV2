@@ -4,7 +4,7 @@
 #include "types/script/scrNativeHandler.hpp"
 
 enum class NativeIndex;
-namespace YimMenu
+namespace VV2
 {
 	class CustomCallContext : public rage::scrNativeCallContext
 	{

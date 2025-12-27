@@ -3,7 +3,7 @@
 #include "game/gta/Natives.hpp"
 #include "types/script/globals/GSBD.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static void BroadcastHook(rage::scrNativeCallContext* ctx);
 

@@ -1,7 +1,7 @@
 #pragma once
 #include <filesystem>
 
-namespace YimMenu
+namespace VV2
 {
 	class BaseObj
 	{

@@ -1,6 +1,6 @@
 #include "LatentFunction.hpp"
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	static void LatentFiber(LPVOID parameter)
 	{

@@ -8,7 +8,7 @@
 #include "core/backend/ScriptMgr.hpp"
 #include "game/backend/Tunables.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	namespace DiamondCasinoHeist
 	{

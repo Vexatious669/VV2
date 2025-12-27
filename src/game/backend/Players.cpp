@@ -5,7 +5,7 @@
 #include "types/network/CNetworkPlayerMgr.hpp"
 #include "types/network/rlGamerInfo.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	void Players::InitImpl()
 	{

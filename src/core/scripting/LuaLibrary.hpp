@@ -1,7 +1,7 @@
 #pragma once
 #include "lua.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class LuaLibrary
 	{

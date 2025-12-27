@@ -9,7 +9,7 @@
 #include "game/gta/ScriptLocal.hpp"
 #include "game/pointers/Pointers.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	struct WARDROBE_LAUNCH_DATA
 	{

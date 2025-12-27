@@ -7,7 +7,7 @@
 #include "types/script/scrProgram.hpp"
 #include "types/rage/tlsContext.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	ScriptFunction::ScriptFunction(const joaat_t script, ScriptPointer ptr) :
 	    m_Script(script),

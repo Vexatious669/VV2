@@ -4,7 +4,7 @@
 #include "types/network/CNetworkPlayerMgr.hpp"
 
 
-namespace YimMenu
+namespace VV2
 {
 	Packet::Packet() :
 	    m_Buffer(m_Data, sizeof(m_Data))

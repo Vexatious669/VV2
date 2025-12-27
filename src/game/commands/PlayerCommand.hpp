@@ -2,7 +2,7 @@
 #include "core/commands/Command.hpp"
 #include "game/gta/Player.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class PlayerCommand;
 	class PlayerAllCommand : public Command

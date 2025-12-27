@@ -2,7 +2,7 @@
 #include "types/rage/vector.hpp"
 #include "Command.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class Vector3Command : public Command
 	{

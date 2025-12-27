@@ -2,7 +2,7 @@
 #include "game/gta/Pools.hpp"
 #include "game/gta/Object.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class DeleteAllObjects : public Command
 	{

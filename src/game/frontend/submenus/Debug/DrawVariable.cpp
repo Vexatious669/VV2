@@ -2,7 +2,7 @@
 #include "core/frontend/widgets/imgui_bitfield.hpp"
 #include "types/script/scrVector.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	void DrawSavedVariableEdit(const SavedVariableBase& var, void* value)
 	{

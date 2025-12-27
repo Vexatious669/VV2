@@ -7,7 +7,7 @@
 
 #include <intrin.h>
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	static bool IsAddressInGameMemory(void* addr)
 	{

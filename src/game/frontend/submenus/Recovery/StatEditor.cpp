@@ -5,7 +5,7 @@
 #include "game/gta/Natives.hpp"
 #include "types/stats/CStatsMgr.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	struct StatInfo
 	{

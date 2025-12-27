@@ -2,7 +2,7 @@
 #include "Command.hpp"
 #include "imgui.h"
 
-namespace YimMenu
+namespace VV2
 {
 	class ColorCommand : public Command
 	{

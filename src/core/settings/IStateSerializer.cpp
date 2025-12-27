@@ -2,7 +2,7 @@
 
 #include "Settings.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	IStateSerializer::IStateSerializer(const std::string& name) :
 	    m_SerComponentName(name),

@@ -3,7 +3,7 @@
 
 // TODO: name compares are expensive, but this is way better than the old impl that reads the json file every frame
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	static void SaveGlobal(SavedGlobal& globalObj)
 	{

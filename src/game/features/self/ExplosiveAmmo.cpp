@@ -7,7 +7,7 @@
 #include "core/commands/FloatCommand.hpp"
 #include "game/gta/Scripts.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static const std::vector<std::pair<int, const char*>> g_ExplosionTypeArray = {
 	    {static_cast<int>(ExplosionType::DONTCARE), "Don't Care"},

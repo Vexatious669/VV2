@@ -1,7 +1,7 @@
 #include "game/commands/PlayerCommand.hpp"
 #include "types/script/ScriptEvent.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class SendSext : public PlayerCommand
 	{

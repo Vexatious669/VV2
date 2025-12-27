@@ -3,7 +3,7 @@
 #include "game/hooks/Hooks.hpp"
 #include "game/gta/Scripts.hpp"
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	bool Script::RunScriptThreads(int ops_to_execute)
 	{

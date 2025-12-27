@@ -16,7 +16,7 @@
 #include "types/script/CGameScriptHandlerNetComponent.hpp"
 #include "types/network/CNetGamePlayer.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	enum eRandomEvent
 	{

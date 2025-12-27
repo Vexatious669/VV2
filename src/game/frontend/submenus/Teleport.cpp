@@ -6,7 +6,7 @@
 #include "game/backend/Self.hpp"
 #include "game/frontend/items/Items.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	static float GetDistanceFromLocation(const SavedLocation& t)
 	{

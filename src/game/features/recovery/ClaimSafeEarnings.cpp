@@ -5,7 +5,7 @@
 #include "types/script/globals/GPBD_FM.hpp"
 #include "types/script/globals/GPBD_FM_2.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	enum class eAppVinewoodMenuSafe
 	{

@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-namespace YimMenu
+namespace VV2
 {
 	// Function to trim leading and trailing whitespace from a string
 	inline std::string TrimString(std::string& str)

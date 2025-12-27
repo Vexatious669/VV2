@@ -1,7 +1,7 @@
 #pragma once
 #include "Command.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class ListCommand : public Command
 	{

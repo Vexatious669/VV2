@@ -6,7 +6,7 @@
 
 #include <future>
 
-namespace YimMenu
+namespace VV2
 {
 	PatternScanner::PatternScanner(const Module* module) :
 	    m_Module(module),

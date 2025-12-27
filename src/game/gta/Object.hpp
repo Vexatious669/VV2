@@ -1,7 +1,7 @@
 #pragma once
 #include "Entity.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class Object : public Entity
 	{

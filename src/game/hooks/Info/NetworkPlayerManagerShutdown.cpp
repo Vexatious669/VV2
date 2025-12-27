@@ -2,7 +2,7 @@
 #include "game/backend/Players.hpp"
 #include "game/hooks/Hooks.hpp"
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	void Info::NetworkPlayerMgrShutdown(CNetworkPlayerMgr* mgr)
 	{

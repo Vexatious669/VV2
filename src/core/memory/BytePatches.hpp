@@ -4,7 +4,7 @@
 #include <span>
 #include <vector>
 
-namespace YimMenu
+namespace VV2
 {
 	class BytePatches
 	{

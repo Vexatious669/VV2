@@ -9,7 +9,7 @@
 #include "types/network/CNetGamePlayer.hpp"
 #include "types/network/rlGamerInfo.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	static std::string BuildIPStr(int field1, int field2, int field3, int field4)
 	{

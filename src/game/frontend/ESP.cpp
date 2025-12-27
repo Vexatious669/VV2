@@ -30,7 +30,7 @@ namespace
 	constexpr int rightShoulderBone = 28252;
 }
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	// Players
 	BoolCommand _ESPDrawPlayers("espdrawplayers", "Draw Players", "Should the ESP draw players?");
@@ -66,7 +66,7 @@ namespace YimMenu::Features
 	ColorCommand _HashColorObjects("hashcolorobjects", "Object Hash Color", "Changes the color of the hash ESP for objects", ImVec4{1.0f, 1.0f, 1.0f, 1.0f});
 }
 
-namespace YimMenu
+namespace VV2
 {
 	static ImVec4 death_bg = ImVec4(0.117f, 0.113f, 0.172f, .75f);
 	static ImVec4 armor_blue_bg = ImVec4(0.36f, 0.71f, 0.89f, .75f);

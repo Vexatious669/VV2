@@ -5,7 +5,7 @@
 #include <MinHook.h>
 #include <string_view>
 
-namespace YimMenu
+namespace VV2
 {
 	template<typename T = int*>
 	class DetourHook : public BaseHook

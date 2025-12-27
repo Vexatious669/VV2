@@ -4,7 +4,7 @@
 #include "core/commands/IntCommand.hpp"
 #include "core/frontend/widgets/toggle/imgui_toggle.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	IntCommandItem::IntCommandItem(joaat_t id, std::optional<std::string> label_override, bool use_slider) :
 	    m_useSlider(use_slider),

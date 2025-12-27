@@ -2,7 +2,7 @@
 #include "game/pointers/Pointers.hpp"
 #include "types/network/sync/netSyncTree.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	SyncNodeId& Nodes::FindImpl(uintptr_t addr)
 	{

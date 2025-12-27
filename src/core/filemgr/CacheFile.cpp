@@ -1,6 +1,6 @@
 #include "CacheFile.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	CacheFile::CacheFile(File cacheFile) :
 	    m_CacheFile(cacheFile),

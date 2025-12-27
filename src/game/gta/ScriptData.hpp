@@ -6,7 +6,7 @@ namespace rage
 	class scrProgram;
 }
 
-namespace YimMenu
+namespace VV2
 {
 	class ScriptData
 	{

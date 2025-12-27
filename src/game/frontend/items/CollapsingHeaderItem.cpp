@@ -1,6 +1,6 @@
 #include "Items.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	CollapsingHeaderItem::CollapsingHeaderItem(const std::string& name) :
 	    m_Name(name)

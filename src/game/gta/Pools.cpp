@@ -4,7 +4,7 @@
 #include "types/rage/PoolEncryption.hpp"
 
 
-namespace YimMenu
+namespace VV2
 {
 	rage::fwBasePool* GetPedPool()
 	{

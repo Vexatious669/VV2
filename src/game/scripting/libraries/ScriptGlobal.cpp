@@ -3,7 +3,7 @@
 #include "core/scripting/LuaUtils.hpp"
 #include "game/gta/ScriptGlobal.hpp"
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	// TODO: we need to automate this
 	class ScriptGlobal : LuaLibrary
@@ -12,33 +12,33 @@ namespace YimMenu::Lua
 
 		static int New(lua_State* state)
 		{
-			CreateObject<YimMenu::ScriptGlobal>(state, luaL_checkinteger(state, 1));
+			CreateObject<VV2::ScriptGlobal>(state, luaL_checkinteger(state, 1));
 			return 1;
 		}
 
 		static int At(lua_State* state)
 		{
 			auto num_args = lua_gettop(state) - 1; // first argument is self
-			auto& global = GetObject<YimMenu::ScriptGlobal>(state, 1);
+			auto& global = GetObject<VV2::ScriptGlobal>(state, 1);
 
 			auto size = num_args > 1 ? luaL_checkinteger(state, 3) : 0;
 			if (size != 0)
-				CopyObject<YimMenu::ScriptGlobal>(state, global.At(luaL_checkinteger(state, 2), size));
+				CopyObject<VV2::ScriptGlobal>(state, global.At(luaL_checkinteger(state, 2), size));
 			else
-				CopyObject<YimMenu::ScriptGlobal>(state, global.At(luaL_checkinteger(state, 2)));
+				CopyObject<VV2::ScriptGlobal>(state, global.At(luaL_checkinteger(state, 2)));
 	
 			return 1;
 		}
 
 		static int CanAccess(lua_State* state)
 		{
-			lua_pushboolean(state, GetObject<YimMenu::ScriptGlobal>(state, 1).CanAccess());
+			lua_pushboolean(state, GetObject<VV2::ScriptGlobal>(state, 1).CanAccess());
 			return 1;
 		}
 
 		static int GetInt(lua_State* state)
 		{
-			auto& global = GetObject<YimMenu::ScriptGlobal>(state, 1);
+			auto& global = GetObject<VV2::ScriptGlobal>(state, 1);
 			int value = 0;
 			if (global.CanAccess())
 				value = *global.As<int*>();
@@ -48,7 +48,7 @@ namespace YimMenu::Lua
 
 		static int GetFloat(lua_State* state)
 		{
-			auto& global = GetObject<YimMenu::ScriptGlobal>(state, 1);
+			auto& global = GetObject<VV2::ScriptGlobal>(state, 1);
 			float value = 0;
 			if (global.CanAccess())
 				value = *global.As<float*>();
@@ -58,7 +58,7 @@ namespace YimMenu::Lua
 
 		static int SetInt(lua_State* state)
 		{
-			auto& global = GetObject<YimMenu::ScriptGlobal>(state, 1);
+			auto& global = GetObject<VV2::ScriptGlobal>(state, 1);
 			if (global.CanAccess())
 				*global.As<int*>() = luaL_checkinteger(state, 2);
 			return 0;
@@ -66,7 +66,7 @@ namespace YimMenu::Lua
 
 		static int SetFloat(lua_State* state)
 		{
-			auto& global = GetObject<YimMenu::ScriptGlobal>(state, 1);
+			auto& global = GetObject<VV2::ScriptGlobal>(state, 1);
 			if (global.CanAccess())
 				*global.As<float*>() = static_cast<float>(luaL_checknumber(state, 2));
 			return 0;
@@ -87,7 +87,7 @@ namespace YimMenu::Lua
 				}
 				lua_setfield(state, -2, "__index"); // prototype
 			}
-			Metatable<YimMenu::ScriptGlobal>::Register(state);
+			Metatable<VV2::ScriptGlobal>::Register(state);
 
 			lua_newtable(state);
 			SetConstructor<New>(state);

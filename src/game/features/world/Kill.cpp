@@ -1,7 +1,7 @@
 #include "core/commands/Command.hpp"
 #include "game/gta/Pools.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class KillAll : public Command
 	{

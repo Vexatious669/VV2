@@ -15,7 +15,7 @@
 
 #define MAX_GARAGE_NUM 36
 
-namespace YimMenu
+namespace VV2
 {
 	// TO-DO: Use script functions for these instead?
 

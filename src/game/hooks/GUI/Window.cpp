@@ -2,7 +2,7 @@
 #include "core/renderer/Renderer.hpp"
 #include "game/hooks/Hooks.hpp"
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	LRESULT Window::WndProc(HWND hwnd, UINT umsg, WPARAM wparam, LPARAM lparam)
 	{

@@ -5,7 +5,7 @@
 #include "Recovery/DailyActivities.hpp"
 #include "game/frontend/items/Items.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	Recovery::Recovery() :
 		#define ICON_FA_SACK_DOLLAR "\xef\x93\x80"

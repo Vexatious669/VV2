@@ -5,7 +5,7 @@
 #include <string_view>
 #include <vector>
 
-namespace YimMenu
+namespace VV2
 {
 	template<std::size_t N>
 	struct Signature

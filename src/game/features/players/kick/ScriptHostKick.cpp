@@ -2,7 +2,7 @@
 #include "types/script/globals/GSBD_Kicking.hpp"
 #include "game/gta/Scripts.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class ScriptHostKick : public PlayerCommand
 	{

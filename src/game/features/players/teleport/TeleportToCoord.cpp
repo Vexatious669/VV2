@@ -2,7 +2,7 @@
 #include "game/commands/PlayerCommand.hpp"
 #include "core/commands/Vector3Command.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static Vector3Command _PlayerTeleportCoordinate{"playertpcoord", "Player Teleport Coords", "The coordinates to teleport the player to"};
 

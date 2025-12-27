@@ -3,7 +3,7 @@
 #include "game/pointers/Pointers.hpp"
 #include "types/anticheat/CAnticheatContext.hpp"
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	std::uint32_t Anticheat::GetAnticheatInitializedHash2(void* ac_var, std::uint32_t seed)
 	{

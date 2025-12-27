@@ -2,7 +2,7 @@
 #include "misc/cpp/imgui_stdlib.h"
 
 
-namespace YimMenu
+namespace VV2
 {
 	InputTextWithHint::InputTextWithHint(std::string label, std::string hint, std::string* buf, int flags, std::function<void()> cb, ImGuiInputTextCallback inputCallback) :
 	    m_Id(label),

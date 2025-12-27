@@ -6,7 +6,7 @@
 #include "core/util/Joaat.hpp"
 #include "types/rage/atArray.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	// on some cracked game builds
 	static bool IsSocialClubNeverGoingToLoad()

@@ -3,7 +3,7 @@
 #include "core/commands/ListCommand.hpp"
 #include "types/script/ScriptEvent.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static std::vector<std::pair<int, const char*>> g_Properties = {
 	    {1, "Eclipse Towers, Apt 31"},

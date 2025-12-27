@@ -4,7 +4,7 @@
 #include "core/scripting/LuaManager.hpp"
 #include "core/frontend/widgets/imgui_colors.h"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	std::shared_ptr<Category> BuildLuaScriptsMenu()
 	{

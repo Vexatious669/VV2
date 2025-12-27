@@ -1,7 +1,7 @@
 #include "core/commands/BoolCommand.hpp"
 #include "game/backend/Tunables.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 
 	class FreeChangeAppearance : public BoolCommand

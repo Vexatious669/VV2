@@ -1,7 +1,7 @@
 #include "core/commands/BoolCommand.hpp"
 #include "game/backend/ScriptPatches.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class DisableDeathBarriers : public BoolCommand
 	{

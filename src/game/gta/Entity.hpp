@@ -22,7 +22,7 @@ namespace rage
 	class netObject;
 }
 
-namespace YimMenu
+namespace VV2
 {
 	class Player;
 	class Entity

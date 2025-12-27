@@ -1,7 +1,7 @@
 #include "ScriptData.hpp"
 #include "types/script/scrProgram.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	ScriptData::ScriptData(rage::scrProgram* program)
 	{

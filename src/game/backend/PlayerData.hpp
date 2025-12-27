@@ -2,7 +2,7 @@
 #include <chrono>
 #include <unordered_set>
 
-namespace YimMenu
+namespace VV2
 {
 	class PlayerData
 	{

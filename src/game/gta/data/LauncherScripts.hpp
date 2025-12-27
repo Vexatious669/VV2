@@ -1,7 +1,7 @@
 #pragma once
 #include "core/util/Joaat.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	constexpr auto g_LauncherScripts = std::to_array({
 	    ""_J,

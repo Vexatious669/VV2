@@ -3,7 +3,7 @@
 #include "game/hooks/Hooks.hpp"
 #include "game/pointers/Pointers.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class CheaterPool : public LoopedCommand
 	{
@@ -31,14 +31,14 @@ namespace YimMenu::Features
 		}
 	};
 
-	static CheaterPool _CheaterPool{"cheaterpool", "Join YimMenu-only Sessions", "Matchmaking will put you into sessions with other YimMenu users."};
+	static CheaterPool _CheaterPool{"cheaterpool", "Join VV2-only Sessions", "Matchmaking will put you into sessions with other VV2 users."};
 }
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	int Network::GetPoolType()
 	{
-		if (YimMenu::Features::_CheaterPool.GetState())
+		if (VV2::Features::_CheaterPool.GetState())
 			return 1;
 
 		return BaseHook::Get<Network::GetPoolType, DetourHook<decltype(&Network::GetPoolType)>>()->Original()();

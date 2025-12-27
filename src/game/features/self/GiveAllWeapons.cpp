@@ -2,7 +2,7 @@
 #include "game/backend/Self.hpp"
 #include "game/gta/data/Weapons.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class GiveAllWeapons : public Command
 	{

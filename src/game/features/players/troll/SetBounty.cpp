@@ -4,7 +4,7 @@
 #include "types/script/ScriptEvent.hpp"
 #include "types/script/globals/GSBD_FM_Events.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static IntCommand _BountyAmount{"bountyamount", "Bounty Amount", "The bounty amount to set", 1, 10000, 9000};
 	static BoolCommand _AnonymousBounty{"anonymousbounty", "Anonymous Bounty", "Sets the bounty as anonymous"};

@@ -2,7 +2,7 @@
 #include "core/hooking/DetourHook.hpp"
 #include "game/backend/CustomMatchmaking.hpp"
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	bool Matchmaking::MatchmakingUnadvertise(int profile_index, MatchmakingId* id, rage::rlTaskStatus* status)
 	{

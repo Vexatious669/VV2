@@ -2,7 +2,7 @@
 #include "game/gta/Natives.hpp"
 #include "core/util/Math.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	RayCast::RayCast(Entity* entity, Vector3* coords) :
 	    m_Entity(entity),

@@ -1,8 +1,4 @@
-# YimMenu Contribution Guide (WIP)
-
-## Important!
-
-PRs containing AI-generated code will NOT BE ACCEPTED! 
+# VV2 Contribution Guide
 
 ## Structure
 

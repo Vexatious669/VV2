@@ -1,7 +1,7 @@
 #include "core/commands/Command.hpp"
 #include "game/gta/Stats.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class FillInventory : public Command
 	{

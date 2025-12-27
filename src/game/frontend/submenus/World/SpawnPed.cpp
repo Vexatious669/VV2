@@ -11,7 +11,7 @@
 #include "game/gta/Scripts.hpp"
 #include "game/backend/NativeHooks.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	std::shared_ptr<Category> BuildSpawnPedMenu()
 	{

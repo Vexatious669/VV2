@@ -3,7 +3,7 @@
 #include "game/gta/Scripts.hpp"
 #include "types/script/scrThread.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	static void SaveLocal(SavedLocal& localObj)
 	{

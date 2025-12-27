@@ -1,6 +1,6 @@
 #include "ApartmentHeist.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	std::shared_ptr<TabItem> RenderApartmentHeistMenu()
 	{

@@ -9,7 +9,7 @@
 #include "game/backend/Players.hpp"
 #include "game/frontend/items/Items.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	struct Tag
 	{
@@ -17,7 +17,7 @@ namespace YimMenu::Submenus
 		ImVec4 Color;
 	};
 
-	static std::vector<Tag> GetPlayerTags(YimMenu::Player player)
+	static std::vector<Tag> GetPlayerTags(VV2::Player player)
 	{
 		std::vector<Tag> tags;
 
@@ -40,7 +40,7 @@ namespace YimMenu::Submenus
 	{
 		struct ComparePlayerNames
 		{
-			bool operator()(YimMenu::Player a, YimMenu::Player b) const
+			bool operator()(VV2::Player a, VV2::Player b) const
 			{
 				std::string nameA = a.GetName();
 				std::string nameB = b.GetName();
@@ -48,8 +48,8 @@ namespace YimMenu::Submenus
 			}
 		};
 
-		std::map<uint8_t, Player, ComparePlayerNames> sortedPlayers(YimMenu::Players::GetPlayers().begin(),
-		    YimMenu::Players::GetPlayers().end());
+		std::map<uint8_t, Player, ComparePlayerNames> sortedPlayers(VV2::Players::GetPlayers().begin(),
+		    VV2::Players::GetPlayers().end());
 
 		if (external)
 		{
@@ -64,9 +64,9 @@ namespace YimMenu::Submenus
 				std::string display_name = player.GetName();
 
 				ImGui::PushID(id);
-				if (ImGui::Selectable(display_name.c_str(), (YimMenu::Players::GetSelected() == player)))
+				if (ImGui::Selectable(display_name.c_str(), (VV2::Players::GetSelected() == player)))
 				{
-					YimMenu::Players::SetSelected(id);
+					VV2::Players::SetSelected(id);
 				}
 				ImGui::PopID();
 
@@ -99,13 +99,13 @@ namespace YimMenu::Submenus
 		}
 		else
 		{
-			if (ImGui::BeginCombo("Players", YimMenu::Players::GetSelected().GetName()))
+			if (ImGui::BeginCombo("Players", VV2::Players::GetSelected().GetName()))
 			{
 				for (auto& [id, player] : sortedPlayers)
 				{
-					if (ImGui::Selectable(player.GetName(), (YimMenu::Players::GetSelected() == player)))
+					if (ImGui::Selectable(player.GetName(), (VV2::Players::GetSelected() == player)))
 					{
-						YimMenu::Players::SetSelected(id);
+						VV2::Players::SetSelected(id);
 					}
 				}
 				ImGui::EndCombo();

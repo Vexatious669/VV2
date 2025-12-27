@@ -10,7 +10,7 @@
 #include "game/backend/Tunables.hpp"
 #include "core/backend/FiberPool.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	namespace CayoPericoHeist
 	{

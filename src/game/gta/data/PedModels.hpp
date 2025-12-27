@@ -1,6 +1,6 @@
 #pragma once
 
-namespace YimMenu
+namespace VV2
 {
 	constexpr auto g_PedModels = std::to_array({
         "a_c_boar",

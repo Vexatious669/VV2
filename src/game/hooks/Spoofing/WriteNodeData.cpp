@@ -7,7 +7,7 @@
 
 #include "types/rage/datBitBuffer.hpp"
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	void Spoofing::WriteNodeData(CProjectBaseSyncDataNode* node, rage::netObject* object, rage::datBitBuffer* buffer, void* logger, bool update)
 	{

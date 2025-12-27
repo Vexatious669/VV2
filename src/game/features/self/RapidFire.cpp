@@ -5,7 +5,7 @@
 #include "game/frontend/GUI.hpp"
 #include "types/pad/ControllerInputs.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class RapidFire : public LoopedCommand
 	{

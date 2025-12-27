@@ -5,7 +5,7 @@
 #include <core/util/Joaat.hpp>
 #include <game/gta/Scripts.hpp>
 
-namespace YimMenu
+namespace VV2
 {
 	class ScriptLocal
 	{

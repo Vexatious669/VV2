@@ -2,7 +2,7 @@
 #include "game/frontend/Menu.hpp"
 #include "core/frontend/manager/UIManager.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	void RenderModernTheme()
 	{
@@ -18,14 +18,14 @@ namespace YimMenu
 		static bool dragging = false;
 		static ImVec2 dragStart = ImVec2(0, 0);
 
-		ImVec2 defaultBasePos((*YimMenu::Pointers.ScreenResX / 2.0f) - (bubbleSpacing * YimMenu::UIManager::GetSubmenus().size() / 2.0f), 80.0f);
+		ImVec2 defaultBasePos((*VV2::Pointers.ScreenResX / 2.0f) - (bubbleSpacing * VV2::UIManager::GetSubmenus().size() / 2.0f), 80.0f);
 		ImVec2 basePos = defaultBasePos + basePosOffset;
 
 		ImGui::SetNextWindowPos(ImVec2(0, 0));
 		ImGui::SetNextWindowSize(io.DisplaySize);
 		ImGui::Begin("##BubbleInputWindow", nullptr, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoBackground | ImGuiWindowFlags_NoBringToFrontOnFocus);
 
-		const auto& submenus = YimMenu::UIManager::GetSubmenus();
+		const auto& submenus = VV2::UIManager::GetSubmenus();
 		for (size_t i = 0; i < submenus.size(); ++i)
 		{
 			auto& submenu = submenus[i];
@@ -48,18 +48,18 @@ namespace YimMenu
 			drawList->AddRectFilled(bubblePos, ImVec2(bubblePos.x + bubbleSize, bubblePos.y + bubbleSize), hovered ? hoverColor : bubbleColor, rounding);
 			drawList->AddRect(bubblePos, ImVec2(bubblePos.x + bubbleSize, bubblePos.y + bubbleSize), IM_COL32(192, 192, 192, 16), rounding, ImDrawFlags_None, 1.0f);
 
-			auto activeSubmenu = YimMenu::UIManager::GetActiveSubmenu();
+			auto activeSubmenu = VV2::UIManager::GetActiveSubmenu();
 
 			if (clicked)
 			{
 				if (submenu == activeSubmenu)
 				{
-					YimMenu::UIManager::SetShowContentWindow(!YimMenu::UIManager::ShowingContentWindow());
+					VV2::UIManager::SetShowContentWindow(!VV2::UIManager::ShowingContentWindow());
 				}
 				else
 				{
-					YimMenu::UIManager::SetActiveSubmenu(submenu);
-					YimMenu::UIManager::SetShowContentWindow(true);
+					VV2::UIManager::SetActiveSubmenu(submenu);
+					VV2::UIManager::SetShowContentWindow(true);
 				}
 			}
 
@@ -68,10 +68,10 @@ namespace YimMenu
 			ImU32 hoveredIconColor = IM_COL32(36, 174, 93, 255);
 			ImU32 iconColor = submenu == activeSubmenu ? activeIconColor : (hovered ? hoveredIconColor : defaultIconColor);
 
-			ImGui::PushFont(YimMenu::Menu::Font::g_AwesomeFont);
+			ImGui::PushFont(VV2::Menu::Font::g_AwesomeFont);
 			ImVec2 iconSize = ImGui::CalcTextSize(submenu->m_Icon.c_str());
 			ImVec2 iconPos(center.x - iconSize.x / 2, center.y - iconSize.y / 2);
-			drawList->AddText(YimMenu::Menu::Font::g_AwesomeFont, 0.0f, iconPos, iconColor, submenu->m_Icon.c_str());
+			drawList->AddText(VV2::Menu::Font::g_AwesomeFont, 0.0f, iconPos, iconColor, submenu->m_Icon.c_str());
 			ImGui::PopFont();
 
 			ImU32 defaultTextColor = IM_COL32(255, 255, 255, 255);
@@ -118,14 +118,14 @@ namespace YimMenu
 
 		ImGui::End();
 
-		auto activeSubmenu = YimMenu::UIManager::GetActiveSubmenu();
+		auto activeSubmenu = VV2::UIManager::GetActiveSubmenu();
 
-		if (YimMenu::UIManager::ShowingContentWindow() && activeSubmenu)
+		if (VV2::UIManager::ShowingContentWindow() && activeSubmenu)
 		{
-			float windowWidth = *YimMenu::Pointers.ScreenResX / 2.5f;
-			float centerX = (*YimMenu::Pointers.ScreenResX - windowWidth) / 2.0f;
-			float centerY = *YimMenu::Pointers.ScreenResY / 5.0f;
-			ImVec2 windowSize(windowWidth, *YimMenu::Pointers.ScreenResY / 2.5f);
+			float windowWidth = *VV2::Pointers.ScreenResX / 2.5f;
+			float centerX = (*VV2::Pointers.ScreenResX - windowWidth) / 2.0f;
+			float centerY = *VV2::Pointers.ScreenResY / 5.0f;
+			ImVec2 windowSize(windowWidth, *VV2::Pointers.ScreenResY / 2.5f);
 
 			ImGui::SetNextWindowSize(windowSize, ImGuiCond_FirstUseEver);
 			ImGui::SetNextWindowPos(ImVec2(centerX, centerY), ImGuiCond_FirstUseEver);
@@ -141,7 +141,7 @@ namespace YimMenu
 
 				if (ImGui::BeginChild("##options", ImVec2(0, 0), true))
 				{
-					ImFont* optionsFont = YimMenu::UIManager::GetOptionsFont();
+					ImFont* optionsFont = VV2::UIManager::GetOptionsFont();
 					if (optionsFont)
 						ImGui::PushFont(optionsFont);
 

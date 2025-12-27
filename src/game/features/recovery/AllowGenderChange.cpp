@@ -1,7 +1,7 @@
 #include "core/commands/BoolCommand.hpp"
 #include "game/gta/Stats.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class AllowGenderChange : public BoolCommand
 	{

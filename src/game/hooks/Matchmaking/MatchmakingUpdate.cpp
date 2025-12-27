@@ -2,7 +2,7 @@
 #include "core/hooking/DetourHook.hpp"
 #include "game/backend/CustomMatchmaking.hpp"
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	bool Matchmaking::MatchmakingUpdate(int profile_index, MatchmakingId* id, int num_slots, int available_slots, rage::rlSessionInfo* info, MatchmakingAttributes* data, rage::rlTaskStatus* status)
 	{

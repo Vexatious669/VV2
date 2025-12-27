@@ -2,7 +2,7 @@
 
 #include "LogSink.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	LogHelper::~LogHelper()
 	{

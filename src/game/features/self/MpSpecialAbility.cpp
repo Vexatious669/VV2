@@ -6,7 +6,7 @@
 #include "game/pointers/Pointers.hpp"
 #include "types/pad/ControllerInputs.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static void IsControlPressedHook(rage::scrNativeCallContext* ctx);
 

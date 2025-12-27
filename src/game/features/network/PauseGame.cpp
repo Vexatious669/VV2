@@ -1,7 +1,7 @@
 #include "core/commands/BoolCommand.hpp"
 #include "game/pointers/Pointers.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class PauseGame : public BoolCommand
 	{

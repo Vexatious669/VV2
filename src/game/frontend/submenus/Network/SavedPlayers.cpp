@@ -6,7 +6,7 @@
 #include "game/gta/Network.hpp"
 #include "game/pointers/Pointers.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	static std::uint64_t g_SelectedRid = 0;
 	static SavedPlayerData* g_SelectedPlayer = nullptr;
@@ -33,7 +33,7 @@ namespace YimMenu::Submenus
 		if (name.size() < search.size())
 			return false;
 
-		// TODO: this doesn't do what YimMenuV1 did (which is to lowercase both inputs and perform a substring search)
+		// TODO: this doesn't do what V1 did (which is to lowercase both inputs and perform a substring search)
 		for (int i = 0; i < search.size(); i++)
 			if (tolower(name[i]) != tolower(search[i]))
 				return false;
@@ -187,7 +187,7 @@ namespace YimMenu::Submenus
 		ImGui::SameLine();
 		if (ImGui::Button("Add"))
 			FiberPool::Push([] {
-				auto rid = YimMenu::Network::ResolveRockstarId(name_buf);
+				auto rid = VV2::Network::ResolveRockstarId(name_buf);
 				if (rid)
 				{
 					SavedPlayers::AddPlayerData(*rid, name_buf);

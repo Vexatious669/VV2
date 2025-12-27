@@ -8,7 +8,7 @@
 #include "game/pointers/Pointers.hpp"
 #include "types/script/Timer.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class CallMechanic : public Command
 	{

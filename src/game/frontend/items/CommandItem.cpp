@@ -5,7 +5,7 @@
 #include "core/backend/FiberPool.hpp"
 #include "DrawHotkey.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	CommandItem::CommandItem(joaat_t id, std::optional<std::string> label_override) :
 	    m_Command(Commands::GetCommand<Command>(id)),

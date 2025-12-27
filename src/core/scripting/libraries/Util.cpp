@@ -3,7 +3,7 @@
 #include "core/scripting/LuaUtils.hpp"
 #include "core/util/Joaat.hpp"
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	class Util : LuaLibrary
 	{
@@ -12,7 +12,7 @@ namespace YimMenu::Lua
 		static int Joaat(lua_State* state)
 		{
 			const char* string = CheckStringSafe(state, 1);
-			lua_pushinteger(state, (int)YimMenu::Joaat(string));
+			lua_pushinteger(state, (int)VV2::Joaat(string));
 			return 1;
 		}
 

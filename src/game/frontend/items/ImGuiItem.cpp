@@ -1,7 +1,7 @@
 #include "Items.hpp"
 #include "core/backend/FiberPool.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	ImGuiItem::ImGuiItem(std::function<void()> callback) :
 	    m_Callback(callback)

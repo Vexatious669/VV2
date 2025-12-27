@@ -4,7 +4,7 @@
 #include "game/gta/Natives.hpp"
 #include "game/gta/Stats.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static CallHook formatIntCaller1Hook{};
 	static CallHook formatIntCaller2Hook{};

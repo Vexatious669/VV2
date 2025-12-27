@@ -9,7 +9,7 @@
 #include "types/script/globals/GlobalPlayerBD.hpp"
 #include "types/script/ScriptEvent.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	std::shared_ptr<Category> BuildMiscMenu()
 	{

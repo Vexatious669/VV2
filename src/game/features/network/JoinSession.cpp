@@ -2,7 +2,7 @@
 #include "core/commands/ListCommand.hpp"
 #include "game/gta/Network.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static std::vector<std::pair<int, const char*>> g_JoinTypes = {
 	    {static_cast<int>(Network::JoinType::JOIN_PUBLIC), "Public"},

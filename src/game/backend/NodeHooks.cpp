@@ -1,6 +1,6 @@
 #include "NodeHooks.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	NodeHooks::Hook::Hook(SyncNodeId node, std::function<bool(rage::netObject* object, Player target)> inScope, std::function<void(rage::netObject* object, Player target, CProjectBaseSyncDataNode* node)> modifyFunc, bool perPlayer, bool forceInScope) :
 	    m_Node(node),

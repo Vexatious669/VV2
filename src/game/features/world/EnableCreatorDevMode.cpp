@@ -1,7 +1,7 @@
 #include "core/commands/BoolCommand.hpp"
 #include "game/backend/ScriptPatches.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	static constexpr auto creatorScripts = std::to_array({
 	    "fm_race_creator"_J,

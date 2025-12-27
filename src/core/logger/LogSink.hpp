@@ -4,7 +4,7 @@
 #include <string>
 
 
-namespace YimMenu
+namespace VV2
 {
 	using namespace al;
 	enum class LogColor;

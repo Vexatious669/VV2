@@ -23,8 +23,8 @@ namespace
 
 		while (true)
 		{
-			YimMenu::ChatDisplay::MarkAccessed();
-			YimMenu::ScriptMgr::Yield();
+			VV2::ChatDisplay::MarkAccessed();
+			VV2::ScriptMgr::Yield();
 			int update_res = MISC::UPDATE_ONSCREEN_KEYBOARD();
 
 			if (update_res == 1)
@@ -41,7 +41,7 @@ namespace
 	}
 }
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class Chat : public Command
 	{

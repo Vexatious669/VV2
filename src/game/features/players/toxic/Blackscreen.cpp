@@ -3,7 +3,7 @@
 #include "types/script/globals/GlobalPlayerBD.hpp"
 #include "types/script/ScriptEvent.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class Blackscreen : public PlayerCommand
 	{

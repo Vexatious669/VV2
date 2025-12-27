@@ -3,7 +3,7 @@
 #include "core/scripting/LuaUtils.hpp"
 #include "types/rage/vector.hpp"
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	class Vector3 : LuaLibrary
 	{

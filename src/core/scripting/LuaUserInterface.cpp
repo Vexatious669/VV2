@@ -1,6 +1,6 @@
 #include "LuaUserInterface.hpp"
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	UIElementBase::UIElementBase(LuaUserInterface& interface) :
 	    m_Interface(interface)

@@ -3,7 +3,7 @@
 #include "game/gta/Scripts.hpp"
 #include "game/pointers/Pointers.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class ForceScriptHost : public LoopedCommand
 	{

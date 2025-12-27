@@ -1,7 +1,7 @@
 #include "game/backend/Self.hpp"
 #include "game/commands/PlayerCommand.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class TeleportToPlayer : public PlayerCommand
 	{

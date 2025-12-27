@@ -2,7 +2,7 @@
 #include "game/hooks/Hooks.hpp"
 #include "game/backend/ScriptPatches.hpp"
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	int Script::ScriptVM(uint64_t* stack, uint64_t** scr_globals, rage::scrProgram* program, void* ctx)
 	{

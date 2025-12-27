@@ -45,7 +45,7 @@ class CNetworkSession;
 class CStatsMpCharacterMappingData;
 class CAnticheatContext;
 
-namespace YimMenu
+namespace VV2
 {
 	namespace Functions
 	{
@@ -175,5 +175,5 @@ namespace YimMenu
 		bool LateInit();
 	};
 
-	inline YimMenu::Pointers Pointers;
+	inline VV2::Pointers Pointers;
 }

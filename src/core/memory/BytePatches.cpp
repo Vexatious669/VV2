@@ -1,6 +1,6 @@
 #include "BytePatches.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	BytePatches::Patch::~Patch()
 	{

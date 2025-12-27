@@ -1,7 +1,7 @@
 #include "game/commands/PlayerCommand.hpp"
 #include "game/backend/Self.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class Bring : public PlayerCommand
 	{

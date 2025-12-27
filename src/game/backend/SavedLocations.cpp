@@ -3,7 +3,7 @@
 #include "core/filemgr/FileMgr.hpp"
 #include "core/frontend/Notifications.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	std::filesystem::path SavedLocations::GetSavedLocationsFilePath()
 	{

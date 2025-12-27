@@ -5,7 +5,7 @@ namespace rage
 	class scrThread;
 }
 
-namespace YimMenu
+namespace VV2
 {
 	enum class VariableType
 	{

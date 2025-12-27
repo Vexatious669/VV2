@@ -10,7 +10,7 @@
 #include "types/rage/datBitBuffer.hpp"
 #include "core/frontend/widgets/imgui_colors.h"
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	static std::optional<rage::netMessage::Type> ReadType(rage::datBitBuffer& buffer)
 	{

@@ -3,7 +3,7 @@
 #include "core/scripting/LuaUtils.hpp"
 #include "core/frontend/Notifications.hpp"
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	class Notify : LuaLibrary
 	{

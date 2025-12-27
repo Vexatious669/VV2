@@ -13,7 +13,7 @@ using FnGetVersion = int (*)();
 using FnLocalSaves = bool (*)();
 using FnBattlEyeBypass = bool (*)();
 
-namespace YimMenu
+namespace VV2
 {
 	static bool CheckForFSL()
 	{

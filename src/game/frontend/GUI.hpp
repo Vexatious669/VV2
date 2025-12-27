@@ -1,7 +1,7 @@
 #pragma once
 #include <windows.h>
 
-namespace YimMenu
+namespace VV2
 {
 	class GUI final
 	{

@@ -6,7 +6,7 @@
 
 #include "core/util/Wine.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	LogColor LogSink::GetColor(const eLogLevel level)
 	{

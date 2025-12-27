@@ -1,7 +1,7 @@
 #include "Vector3Command.hpp"
 #include "core/backend/FiberPool.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	void Vector3Command::OnCall()
 	{

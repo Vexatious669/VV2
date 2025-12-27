@@ -2,7 +2,7 @@
 #include "game/backend/Players.hpp"
 #include "game/gta/Natives.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class Spectate : public LoopedCommand
 	{

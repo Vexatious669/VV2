@@ -1,7 +1,7 @@
 #include "ScriptMgr.hpp"
 #include "core/scripting/LuaManager.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	Script::Script(std::function<void()> callback) :
 	    m_Callback(callback),

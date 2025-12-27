@@ -4,7 +4,7 @@
 #include "game/backend/Self.hpp"
 #include "game/gta/Natives.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static IntCommand _WantedSlider{"wantedslider", "Wanted Slider", "Wanted level to set/freeze", 0, 5, 0};
 

@@ -3,7 +3,7 @@
 #include "types/script/types.hpp"
 #include "core/util/Joaat.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class Vehicle : public Entity
 	{

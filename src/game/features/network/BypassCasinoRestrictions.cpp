@@ -2,7 +2,7 @@
 #include "game/backend/NativeHooks.hpp"
 #include "game/gta/Natives.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static void NetworkCasinoCanBetHook(rage::scrNativeCallContext* ctx);
 	static void NetworkCasinoCanBuyChipsPVCHook(rage::scrNativeCallContext* ctx);

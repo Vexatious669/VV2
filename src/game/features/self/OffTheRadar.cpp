@@ -3,7 +3,7 @@
 #include "game/gta/Scripts.hpp"
 #include "types/script/globals/GlobalPlayerBD.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class OffTheRadar : public LoopedCommand
 	{

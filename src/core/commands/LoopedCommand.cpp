@@ -1,7 +1,7 @@
 #include "LoopedCommand.hpp"
 #include "Commands.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	LoopedCommand::LoopedCommand(std::string name, std::string label, std::string description) :
 	    BoolCommand(name, label, description)

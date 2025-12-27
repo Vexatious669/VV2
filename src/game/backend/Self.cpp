@@ -5,7 +5,7 @@
 #include "game/gta/Natives.hpp"
 #include "types/ped/CPedFactory.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	Self::Self() :
 	    m_SelfPed(nullptr),

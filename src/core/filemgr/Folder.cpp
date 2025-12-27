@@ -1,7 +1,7 @@
 #include "Folder.hpp"
 #include "FileMgr.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	Folder::Folder(const std::filesystem::path& path) :
 	    BaseObj(path)

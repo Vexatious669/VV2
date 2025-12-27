@@ -1,6 +1,6 @@
 #pragma once
 
-namespace YimMenu
+namespace VV2
 {
 	static constexpr auto scriptNames = std::to_array({
 	    "abigail1",

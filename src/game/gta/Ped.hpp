@@ -5,7 +5,7 @@
 enum class PedConfigFlag : std::uint32_t;
 enum class PedCombatAttribute : std::uint32_t;
 
-namespace YimMenu
+namespace VV2
 {
 	class Ped : public Entity
 	{

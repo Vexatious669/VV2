@@ -9,7 +9,7 @@
 
 // TODO: clean up more AI generated junk from this file
 
-namespace YimMenu
+namespace VV2
 {
 	int GetMaxDrawable(int slot)
 	{

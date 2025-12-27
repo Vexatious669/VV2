@@ -1,9 +1,9 @@
 #include "core/commands/BoolCommand.hpp"
 #include "game/backend/ScriptPatches.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
-	// from https://github.com/TCRoid/YimMenu-Lua-RS-Missions/
+	// from https://github.com/TCRoid/VV2-Lua-RS-Missions/
 	class LSCCustomsBypass : public BoolCommand
 	{
 		using BoolCommand::BoolCommand;

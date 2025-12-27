@@ -4,7 +4,7 @@
 #include "LuaConfig.hpp"
 #include "LuaUserInterface.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class LuaScript
 	{

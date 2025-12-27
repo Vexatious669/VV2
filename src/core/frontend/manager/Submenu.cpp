@@ -1,6 +1,6 @@
 #include "Submenu.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	void Submenu::SetActiveCategory(const std::shared_ptr<Category> category)
 	{

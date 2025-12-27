@@ -2,7 +2,7 @@
 #include "core/commands/FloatCommand.hpp"
 #include "game/backend/Tunables.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static FloatCommand _RpMultiplierInput{"rpmultiplierinput", "RP Multiplier Input", "RP Mulitplier (< 0 = 0 -> No RP)", std::nullopt, std::nullopt, 1};
 

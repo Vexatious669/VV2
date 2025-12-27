@@ -3,7 +3,7 @@
 #include "game/backend/PlayerData.hpp"
 #include "types/script/globals/GSBD.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class FreemodeStateKick : public PlayerCommand
 	{

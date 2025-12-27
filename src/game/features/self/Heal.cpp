@@ -1,7 +1,7 @@
 #include "core/commands/Command.hpp"
 #include "game/backend/Self.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class Heal : Command
 	{

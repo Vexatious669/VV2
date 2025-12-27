@@ -8,7 +8,7 @@
 #include "types/script/Timer.hpp"
 #include "game/gta/RayCast.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	void CustomWeapon::OnTick()
 	{

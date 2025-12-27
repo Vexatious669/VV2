@@ -1,8 +1,8 @@
 #include "SavedPlayerData.hpp"
 
-namespace YimMenu
+namespace VV2
 {
-	std::string_view YimMenu::FetchedPlayerData::GameStateToString(GameState state)
+	std::string_view VV2::FetchedPlayerData::GameStateToString(GameState state)
 	{
 		if (state == GameState::INVALID)
 			return "Invalid";

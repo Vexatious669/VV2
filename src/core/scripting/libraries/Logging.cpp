@@ -2,7 +2,7 @@
 #include "core/scripting/LuaScript.hpp"
 #include "core/scripting/LuaUtils.hpp"
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	class Logging : LuaLibrary
 	{

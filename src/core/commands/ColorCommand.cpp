@@ -9,7 +9,7 @@ namespace
 	}
 }
 
-namespace YimMenu
+namespace VV2
 {
 	void ColorCommand::OnCall()
 	{

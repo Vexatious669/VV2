@@ -5,7 +5,7 @@
 
 #include "types/script/scrProgram.hpp"
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	void Script::InitNativeTables(rage::scrProgram* program)
 	{

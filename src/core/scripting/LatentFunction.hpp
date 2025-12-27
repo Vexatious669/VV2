@@ -1,7 +1,7 @@
 #pragma once
 #include "LuaScript.hpp"
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	int LatentFunctionInternal(lua_State* state, lua_CFunction func);
 

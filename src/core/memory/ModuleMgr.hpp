@@ -2,7 +2,7 @@
 #include "Module.hpp"
 #include "common.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	using joaat_t = std::uint32_t;
 
@@ -34,5 +34,5 @@ namespace YimMenu
 		std::unordered_multimap<std::uint32_t, std::unique_ptr<Module>> m_CachedModules;
 	};
 
-	inline YimMenu::ModuleMgr ModuleMgr;
+	inline VV2::ModuleMgr ModuleMgr;
 }

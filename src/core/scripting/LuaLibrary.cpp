@@ -1,7 +1,7 @@
 #include "LuaLibrary.hpp"
 #include "LuaManager.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	LuaLibrary::LuaLibrary()
 	{

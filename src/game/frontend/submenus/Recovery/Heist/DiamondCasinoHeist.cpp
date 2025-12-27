@@ -1,6 +1,6 @@
 #include "DiamondCasinoHeist.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	std::shared_ptr<TabItem> RenderDiamondCasinoHeistMenu()
 	{

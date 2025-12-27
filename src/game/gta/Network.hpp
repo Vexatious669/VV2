@@ -5,7 +5,7 @@ namespace rage
 	class rlSessionInfo;
 }
 
-namespace YimMenu::Network
+namespace VV2::Network
 {
 	enum class JoinType
 	{

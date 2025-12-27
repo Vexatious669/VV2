@@ -3,7 +3,7 @@
 #include "game/backend/Players.hpp"
 #include "game/backend/Self.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	PlayerAllCommand::PlayerAllCommand(std::string name, std::string label, std::string description, int num_args, PlayerCommand* parent) :
 	    Command(name + "all", label, description, num_args),

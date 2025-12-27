@@ -1,7 +1,7 @@
 #pragma once
 #include "core/frontend/manager/UIManager.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	class Network : public Submenu
 	{

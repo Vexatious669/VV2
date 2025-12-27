@@ -10,7 +10,7 @@
 #include <set>
 
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class CasinoManipulateRigSlotMachines : public LoopedCommand
 	{

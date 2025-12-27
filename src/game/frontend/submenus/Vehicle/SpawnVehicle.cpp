@@ -8,7 +8,7 @@
 #include "game/gta/data/Vehicles.hpp"
 #include "game/gta/Natives.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	static BoolCommand spawnInsideVehicle{"spawninsideveh", "Spawn Inside", "Spawn inside the vehicle."};
 	static BoolCommand spawnVehicleMaxed{"spawnvehmaxed", "Spawn Maxed", "Spawn the vehicle maxed."};

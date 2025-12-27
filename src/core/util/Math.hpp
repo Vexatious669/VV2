@@ -1,7 +1,7 @@
 #pragma once
 #include "types/rage/vector.hpp"
 
-namespace YimMenu::Math
+namespace VV2::Math
 {
 	inline float DegToRad(float deg)
 	{

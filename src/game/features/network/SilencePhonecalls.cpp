@@ -2,7 +2,7 @@
 #include "game/gta/ScriptGlobal.hpp"
 #include "game/pointers/Pointers.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class SilencePhonecalls : public LoopedCommand
 	{

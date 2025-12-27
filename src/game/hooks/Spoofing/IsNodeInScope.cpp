@@ -2,7 +2,7 @@
 #include "game/backend/NodeHooks.hpp"
 #include "game/hooks/Hooks.hpp"
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	bool Hooks::Spoofing::IsNodeInScope(void* node, void* a2, std::uint8_t playerId, int flags, unsigned int a5, int a6)
 	{

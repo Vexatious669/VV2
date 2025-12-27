@@ -8,7 +8,7 @@
 #include "game/frontend/items/DrawHotkey.hpp"
 #include "game/frontend/submenus/Settings/LuaScripts.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	// TODO: refactor this
 	static void Hotkeys()

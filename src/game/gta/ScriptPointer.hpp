@@ -1,7 +1,7 @@
 #pragma once
 #include "game/gta/ScriptData.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class ScriptPointer
 	{

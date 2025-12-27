@@ -6,7 +6,7 @@
 #include "game/gta/Network.hpp"
 #include "game/frontend/submenus/Network/RandomEvents.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	Network::Network() :
 		#define ICON_FA_ROUTE "\xef\x9b\xbf"
@@ -36,10 +36,10 @@ namespace YimMenu::Submenus
 			ImGui::SameLine();
 			if (ImGui::Button("Join##username"))
 				FiberPool::Push([] {
-					auto rid = YimMenu::Network::ResolveRockstarId(name_buf);
+					auto rid = VV2::Network::ResolveRockstarId(name_buf);
 					if (rid)
 					{
-						YimMenu::Network::JoinRockstarId(*rid);
+						VV2::Network::JoinRockstarId(*rid);
 					}
 					else
 					{
@@ -52,7 +52,7 @@ namespace YimMenu::Submenus
 			ImGui::SameLine();
 			if (ImGui::Button("Join##rid"))
 				FiberPool::Push([] {
-					YimMenu::Network::JoinRockstarId(rockstar_id);
+					VV2::Network::JoinRockstarId(rockstar_id);
 				});
 		}));
 

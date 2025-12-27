@@ -28,7 +28,7 @@ namespace
 	}
 }
 
-namespace YimMenu
+namespace VV2
 {
 	void Entity::PopulatePointer()
 	{

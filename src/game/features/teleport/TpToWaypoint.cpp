@@ -6,7 +6,7 @@
 #include "game/gta/Natives.hpp"
 #include "core/frontend/Notifications.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	void ResolveZCoordinate(Vector3& vec)
 	{

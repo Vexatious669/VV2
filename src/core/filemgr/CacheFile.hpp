@@ -1,7 +1,7 @@
 #pragma once
 #include "File.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	using cacheData = std::unique_ptr<uint8_t[]>;
 

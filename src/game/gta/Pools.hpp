@@ -7,7 +7,7 @@
 #include "types/vehicle/fwVehiclePool.hpp"
 
 
-namespace YimMenu
+namespace VV2
 {
 	rage::fwBasePool* GetPedPool();
 	rage::fwBasePool* GetObjectPool();

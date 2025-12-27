@@ -11,7 +11,7 @@
 #include <imgui.h>
 
 
-namespace YimMenu
+namespace VV2
 {
 	Renderer::Renderer() :
 	    m_Initialized(false),

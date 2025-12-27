@@ -4,7 +4,7 @@
 #include "game/gta/Natives.hpp"
 #include "game/backend/Self.hpp"
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	class Network : LuaLibrary
 	{

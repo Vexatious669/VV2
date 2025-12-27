@@ -4,7 +4,7 @@
 #include <mutex>
 
 
-namespace YimMenu
+namespace VV2
 {
 	struct Message
 	{

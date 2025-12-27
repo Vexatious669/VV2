@@ -2,7 +2,7 @@
 #include "game/backend/Self.hpp"
 #include "game/gta/Pools.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class BringAllObjs : public Command
 	{

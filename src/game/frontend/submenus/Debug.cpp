@@ -6,7 +6,7 @@
 #include "Debug/Scripts.hpp"
 #include "game/frontend/items/Items.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	Debug::Debug() :
 		#define ICON_FA_ARROW_RIGHT "\xef\x84\xa0"

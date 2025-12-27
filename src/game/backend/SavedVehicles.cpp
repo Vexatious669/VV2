@@ -8,7 +8,7 @@
 #include "game/gta/Vehicle.hpp"
 #include "game/gta/data/VehicleValues.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	Folder SavedVehicles::CheckFolder(std::string folderName)
 	{

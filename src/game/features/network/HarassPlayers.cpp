@@ -6,7 +6,7 @@
 #include "types/network/sync/nodes/proximity_migrateable/CSectorDataNode.hpp"
 #include "types/network/sync/nodes/player/CPlayerSectorPosNode.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class HarassPlayers : public BoolCommand
 	{

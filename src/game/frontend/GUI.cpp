@@ -10,7 +10,7 @@
 #include "game/gta/Natives.hpp"
 #include "types/pad/ControllerInputs.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	GUI::GUI() :
 	    m_IsOpen(false)

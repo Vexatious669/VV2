@@ -3,7 +3,7 @@
 #include "LoopedCommand.hpp"
 #include "core/backend/ScriptMgr.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	Commands::Commands() :
 	    IStateSerializer("commands")

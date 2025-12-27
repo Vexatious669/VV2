@@ -1,7 +1,7 @@
 #pragma once
 #include "MinHook.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class Hooking
 	{

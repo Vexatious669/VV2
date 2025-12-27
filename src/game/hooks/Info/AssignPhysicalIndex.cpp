@@ -6,7 +6,7 @@
 #include "game/gta/Natives.hpp"
 #include "core/backend/FiberPool.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static BoolCommand _NotifyOnPlayerJoin{
 	    "notifyonplayerjoin",
@@ -15,7 +15,7 @@ namespace YimMenu::Features
 	    true};
 }
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	void Info::AssignPhysicalIndex(CNetworkPlayerMgr* mgr, CNetGamePlayer* player, std::uint8_t index)
 	{

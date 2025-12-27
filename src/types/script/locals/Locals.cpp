@@ -10,7 +10,7 @@
 #define DEFINE_LOCAL_ACCESSOR(str, local)               \
 	str* str::Get(rage::scrThread* thread)              \
 	{                                                   \
-		auto lcl = YimMenu::ScriptLocal(thread, local); \
+		auto lcl = VV2::ScriptLocal(thread, local); \
 		if (!lcl.CanAccess())                           \
 			return nullptr;                             \
 		return lcl.As<str*>();                          \

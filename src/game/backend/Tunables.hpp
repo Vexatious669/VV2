@@ -3,7 +3,7 @@
 #include "core/filemgr/CacheFile.hpp"
 #include "game/gta/ScriptGlobal.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	constexpr int TUNABLE_BASE_ADDRESS = 0x40001;
 

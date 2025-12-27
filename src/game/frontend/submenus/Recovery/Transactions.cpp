@@ -10,7 +10,7 @@
 #include "types/netshop/CNetShopTransaction.hpp"
 #include "types/netshop/netCatalogBaseItem.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	constexpr std::array<std::pair<const char*, std::uint32_t>, 28> NET_SHOP_ACTIONS =
 	    {{

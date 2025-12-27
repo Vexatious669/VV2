@@ -4,7 +4,7 @@
 #include "types/script/ScriptEvent.hpp"
 #include "types/script/globals/GSBD_RandomEvents.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class SendPhantomCar : public PlayerCommand
 	{

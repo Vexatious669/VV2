@@ -7,7 +7,7 @@
 #include "types/pad/ControllerInputs.hpp"
 
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static FloatCommand _FreecamSpeed{"freecamspeed", "Freecam Speed", "How fast the freecam will move positions", 0.01f, 10.0f, 0.10f};
 

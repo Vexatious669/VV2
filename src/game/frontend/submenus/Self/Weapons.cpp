@@ -10,7 +10,7 @@
 #include "core/commands/Commands.hpp"
 #include "game/features/self/CustomWeapon.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	struct WeaponDisplay
 	{

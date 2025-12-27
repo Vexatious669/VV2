@@ -5,7 +5,7 @@
 #include "core/util/Joaat.hpp"
 
 
-namespace YimMenu
+namespace VV2
 {
 	static std::unordered_set<joaat_t> cameraHashes = {
 	    "p_cctv_s"_J,

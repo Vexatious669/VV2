@@ -19,12 +19,12 @@ x = root:add_group("Name", 3)
 y = root:add_tab_group
 */
 
-namespace YimMenu
+namespace VV2
 {
 	class LuaUserInterface;
 }
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	class UIRoot;
 
@@ -98,7 +98,7 @@ namespace YimMenu::Lua
 	};
 }
 
-namespace YimMenu
+namespace VV2
 {
 	class LuaUserInterface
 	{

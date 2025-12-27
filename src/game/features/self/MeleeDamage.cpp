@@ -4,7 +4,7 @@
 #include <game/gta/Natives.hpp>
 #include "core/commands/FloatCommand.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static FloatCommand _MeleeDamageScale{
 	    "meleedamagescale",

@@ -1,7 +1,7 @@
 #include "game/commands/PlayerCommand.hpp"
 #include "types/fx/ExplosionType.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class Explode : public PlayerCommand
 	{

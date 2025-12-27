@@ -5,7 +5,7 @@
 #include "game/gta/Ped.hpp"
 #include "game/pointers/Pointers.hpp"
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	static BoolCommand _AimbotReleaseDeadPed{"aimbotreleasedeadped", "Release Dead Target", "Releases the lock-on to the target after they are dead"};
 

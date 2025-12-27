@@ -6,7 +6,7 @@
 #include "types/battleye/CBattlEyePlayerModifyContext.hpp"
 #include "game/backend/AnticheatBypass.hpp"
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	bool Anticheat::BattlEyeServerProcessPlayerJoin(CBattlEyePlayerModifyInterface* server_iface, CBattlEyePlayerModifyContext* context)
 	{

@@ -5,7 +5,7 @@ namespace rage
 	class scrThread;
 }
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class OpenStreetDealerMenu
 	{

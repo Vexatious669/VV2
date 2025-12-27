@@ -1,6 +1,6 @@
 #include "ScriptLocal.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	void* ScriptLocal::Get() const
 	{

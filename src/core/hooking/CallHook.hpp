@@ -1,7 +1,7 @@
 #pragma once
 #include "core/memory/PointerCalculator.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class CallHookMemory
 	{

@@ -2,7 +2,7 @@
 #include "game/backend/SavedPlayerData.hpp"
 #include "game/gta/Player.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	class SavedPlayers
 	{

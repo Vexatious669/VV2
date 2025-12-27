@@ -1,6 +1,6 @@
 #include "DrawHotkey.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	void DrawHotkey(CommandLink* link, std::string_view label)
 	{

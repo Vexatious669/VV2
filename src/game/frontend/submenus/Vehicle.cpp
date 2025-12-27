@@ -4,7 +4,7 @@
 #include "Vehicle/VehicleEditor.hpp"
 #include "Vehicle/SavedVehicles.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	Vehicle::Vehicle() :
 		#define ICON_FA_CAR "\xef\x86\xb9"

@@ -3,7 +3,7 @@
 #include "game/hooks/Hooks.hpp"
 
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	void Anticheat::HttpStartRequest(void* request)
 	{

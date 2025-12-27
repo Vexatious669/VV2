@@ -1,7 +1,7 @@
 #include "Items.hpp"
 #include "core/backend/FiberPool.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	Button::Button(const std::string_view& name, std::function<void()> onClick, const ImVec2 size, const std::string_view& information) :
 	    m_Name(name),

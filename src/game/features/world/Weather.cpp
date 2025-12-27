@@ -4,7 +4,7 @@
 #include "game/backend/ScriptPatches.hpp"
 #include "game/gta/Natives.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static std::vector<std::pair<int, const char*>> g_WeatherTypes = {
 	    {0, "Clear"},

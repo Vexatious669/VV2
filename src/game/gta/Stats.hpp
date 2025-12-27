@@ -2,7 +2,7 @@
 #include "core/util/Joaat.hpp"
 #include "types/script/types.hpp"
 
-namespace YimMenu::Stats
+namespace VV2::Stats
 {
 	extern int GetCharIndex();
 

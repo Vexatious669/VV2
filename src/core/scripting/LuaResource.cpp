@@ -1,7 +1,7 @@
 #include "LuaResource.hpp"
 #include "LuaManager.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	void LuaResourceType::Register()
 	{

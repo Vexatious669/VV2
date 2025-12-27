@@ -5,7 +5,7 @@
 #include "types/network/netArrayHandler.hpp"
 #include "types/script/globals/GSBD.hpp"
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	class FreemodeStateKick
 	{

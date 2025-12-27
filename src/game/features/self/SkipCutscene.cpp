@@ -1,7 +1,7 @@
 #include "core/commands/Command.hpp"
 #include "game/gta/Natives.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class SkipCutscene : public Command
 	{

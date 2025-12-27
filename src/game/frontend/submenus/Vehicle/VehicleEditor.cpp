@@ -8,7 +8,7 @@
 #include "game/gta/data/VehicleValues.hpp"
 #include "game/gta/data/ModNames.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	std::shared_ptr<Category> BuildVehicleEditorMenu()
 	{

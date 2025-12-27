@@ -3,7 +3,7 @@
 #include "game/gta/Natives.hpp"
 #include "types/pad/ControllerInputs.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class HornBoost : public LoopedCommand
 	{

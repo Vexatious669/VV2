@@ -1,6 +1,6 @@
 #include "Items.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	TabBarItem::TabBarItem(const std::string& id) :
 		m_Id(id)

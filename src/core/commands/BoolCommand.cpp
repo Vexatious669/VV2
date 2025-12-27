@@ -2,7 +2,7 @@
 #include "core/backend/FiberPool.hpp"
 #include "Commands.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	BoolCommand::BoolCommand(std::string name, std::string label, std::string description, bool def_value) :
 	    Command(name, label, description, 0),

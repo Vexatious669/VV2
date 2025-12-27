@@ -1,6 +1,6 @@
 #include "game/commands/PlayerCommand.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class Kill : public PlayerCommand
 	{

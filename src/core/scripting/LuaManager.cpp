@@ -5,7 +5,7 @@
 #include "types/script/scrThread.hpp"
 #include "core/util/Joaat.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	void LuaManager::AddUnloadedScript(std::string_view name, std::string_view path)
 	{

@@ -1,6 +1,6 @@
 #include "Fonts.hpp"
 
-namespace YimMenu::Fonts
+namespace VV2::Fonts
 {
 	const uint8_t MainFont[] = {
 	    0x00,

@@ -2,7 +2,7 @@
 #include "game/frontend/items/Items.hpp"
 #include "World/SpawnPed.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	World::World() :
 		#define ICON_FA_GLOBE "\xef\x82\xac"

@@ -2,7 +2,7 @@
 #include "game/backend/Tunables.hpp"
 
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class NoChangeAppearanceCooldown : public BoolCommand
 	{

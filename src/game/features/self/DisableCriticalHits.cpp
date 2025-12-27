@@ -3,7 +3,7 @@
 #include "game/gta/Pools.hpp"
 #include <game/gta/Natives.hpp>
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class DisableCriticalHits : public LoopedCommand
 	{

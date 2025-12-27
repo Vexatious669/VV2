@@ -2,7 +2,7 @@
 #include "core/util/Joaat.hpp"
 #undef GetObject // another dumb Windows.h definition
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	template<typename T>
 	class Metatable

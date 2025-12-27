@@ -4,7 +4,7 @@
 #include "types/script/globals/GlobalPlayerBD.hpp"
 #include "types/script/ScriptEvent.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static std::vector<std::pair<int, const char*>> g_Interiors = {
 	    {(int)eSimpleInteriorIndex::SIMPLE_INTERIOR_ARMORY_TRUCK_1, "MOC"},

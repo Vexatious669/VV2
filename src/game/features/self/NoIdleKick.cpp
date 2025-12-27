@@ -1,7 +1,7 @@
 #include "core/commands/LoopedCommand.hpp"
 #include "game/backend/Tunables.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	class NoIdleKick : public LoopedCommand
 	{

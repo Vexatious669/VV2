@@ -18,7 +18,7 @@
 		o = nullptr; \
 	}
 
-namespace YimMenu
+namespace VV2
 {
 	using namespace Microsoft::WRL;
 	using RendererCallBack = std::function<void()>;

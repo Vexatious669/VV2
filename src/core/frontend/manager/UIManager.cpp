@@ -3,7 +3,7 @@
 #include "game/frontend/Menu.hpp"
 #include "core/commands/ListCommand.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static const std::vector<std::pair<int, const char*>> g_StyleOptions = {
 		{0, "Classic"},
@@ -20,7 +20,7 @@ namespace YimMenu::Features
 		0};
 }
 
-namespace YimMenu
+namespace VV2
 {
 	void UIManager::AddSubmenuImpl(const std::shared_ptr<Submenu>&& submenu)
 	{

@@ -5,7 +5,7 @@
 #include <functional>
 #include <vector>
 
-namespace YimMenu
+namespace VV2
 {
 	class Module;
 	using PatternFunc = std::function<void(PointerCalculator)>;

@@ -5,7 +5,7 @@
 #include "Self/OutfitEditor.hpp"
 #include "Self/Weapons.hpp"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	Self::Self() :
 		#define ICON_FA_USER "\xef\x80\x87"
@@ -74,7 +74,7 @@ namespace YimMenu::Submenus
 
 		AddCategory(BuildWeaponsMenu());
 
-		auto outfitEditorCategory = YimMenu::CreateOutfitsMenu();
+		auto outfitEditorCategory = VV2::CreateOutfitsMenu();
 		AddCategory(std::move(outfitEditorCategory));
 	}
 }

@@ -4,7 +4,7 @@
 #include <game/gta/Natives.hpp>
 #include "core/commands/FloatCommand.hpp"
 
-namespace YimMenu::Features
+namespace VV2::Features
 {
 	static FloatCommand _WeaponDamageScale{"weapondamagescale", "Weapon Damage Scale", "Sets the damage scale for weapons (including melee)", 0.0f, 10.0f, 1.0f};
 

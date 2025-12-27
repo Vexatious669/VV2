@@ -14,7 +14,7 @@
 #include "types/network/CNetGamePlayer.hpp"
 #include "misc/cpp/imgui_stdlib.h"
 
-namespace YimMenu::Submenus
+namespace VV2::Submenus
 {
 	static constexpr std::pair<const char*, int> stackSizes[] = {
 	    {"MICRO", static_cast<int>(eStackSizes::MICRO)},

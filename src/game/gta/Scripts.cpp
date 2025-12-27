@@ -21,7 +21,7 @@
 #include "types/script/ScriptEvent.hpp"
 #include "game/gta/ScriptGlobal.hpp"
 
-namespace YimMenu::Scripts
+namespace VV2::Scripts
 {
 	int StartScript(joaat_t hash, eStackSizes stackSize, void* args, int argCount)
 	{

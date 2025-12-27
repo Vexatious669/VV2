@@ -3,7 +3,7 @@
 #include "core/scripting/LuaUtils.hpp"
 #include "game/gta/Stats.hpp"
 
-namespace YimMenu::Lua
+namespace VV2::Lua
 {
 	class Stats : LuaLibrary
 	{
@@ -11,19 +11,19 @@ namespace YimMenu::Lua
 
 		static int SetInt(lua_State* state)
 		{
-			YimMenu::Stats::SetInt(CheckStringSafe(state, 1), luaL_checkinteger(state, 2));
+			VV2::Stats::SetInt(CheckStringSafe(state, 1), luaL_checkinteger(state, 2));
 			return 0;
 		}
 
 		static int SetBool(lua_State* state)
 		{
-			YimMenu::Stats::SetBool(CheckStringSafe(state, 1), CheckBooleanSafe(state, 2));
+			VV2::Stats::SetBool(CheckStringSafe(state, 1), CheckBooleanSafe(state, 2));
 			return 0;
 		}
 
 		static int SetFloat(lua_State* state)
 		{
-			YimMenu::Stats::SetFloat(CheckStringSafe(state, 1), luaL_checknumber(state, 2));
+			VV2::Stats::SetFloat(CheckStringSafe(state, 1), luaL_checknumber(state, 2));
 			return 0;
 		}
 
@@ -31,19 +31,19 @@ namespace YimMenu::Lua
 
 		static int SetString(lua_State* state)
 		{
-			YimMenu::Stats::SetString(CheckStringSafe(state, 1), CheckStringSafe(state, 2));
+			VV2::Stats::SetString(CheckStringSafe(state, 1), CheckStringSafe(state, 2));
 			return 0;
 		}
 
 		static int SetPackedInt(lua_State* state)
 		{
-			YimMenu::Stats::SetPackedInt(luaL_checkinteger(state, 1), luaL_checkinteger(state, 2));
+			VV2::Stats::SetPackedInt(luaL_checkinteger(state, 1), luaL_checkinteger(state, 2));
 			return 0;
 		}
 
 		static int SetPackedBool(lua_State* state)
 		{
-			YimMenu::Stats::SetPackedBool(luaL_checkinteger(state, 1), CheckBooleanSafe(state, 2));
+			VV2::Stats::SetPackedBool(luaL_checkinteger(state, 1), CheckBooleanSafe(state, 2));
 			return 0;
 		}
 
@@ -53,25 +53,25 @@ namespace YimMenu::Lua
 			int end = luaL_checkinteger(state, 2);
 			bool value = CheckBooleanSafe(state, 3);
 			for (int i = start; i <= end; i++)
-				YimMenu::Stats::SetPackedBool(i, value);
+				VV2::Stats::SetPackedBool(i, value);
 			return 0;
 		}
 
 		static int GetInt(lua_State* state)
 		{
-			lua_pushinteger(state, YimMenu::Stats::GetInt(CheckStringSafe(state, 1)));
+			lua_pushinteger(state, VV2::Stats::GetInt(CheckStringSafe(state, 1)));
 			return 0;
 		}
 
 		static int GetBool(lua_State* state)
 		{
-			lua_pushboolean(state, YimMenu::Stats::GetBool(CheckStringSafe(state, 1)));
+			lua_pushboolean(state, VV2::Stats::GetBool(CheckStringSafe(state, 1)));
 			return 0;
 		}
 
 		static int GetFloat(lua_State* state)
 		{
-			lua_pushnumber(state, YimMenu::Stats::GetFloat(CheckStringSafe(state, 1)));
+			lua_pushnumber(state, VV2::Stats::GetFloat(CheckStringSafe(state, 1)));
 			return 0;
 		}
 
@@ -79,19 +79,19 @@ namespace YimMenu::Lua
 
 		static int GetString(lua_State* state)
 		{
-			lua_pushstring(state, YimMenu::Stats::GetString(CheckStringSafe(state, 1)));
+			lua_pushstring(state, VV2::Stats::GetString(CheckStringSafe(state, 1)));
 			return 0;
 		}
 
 		static int GetPackedInt(lua_State* state)
 		{
-			lua_pushinteger(state, YimMenu::Stats::GetPackedInt(luaL_checkinteger(state, 1)));
+			lua_pushinteger(state, VV2::Stats::GetPackedInt(luaL_checkinteger(state, 1)));
 			return 0;
 		}
 
 		static int GetPackedBool(lua_State* state)
 		{
-			lua_pushboolean(state, YimMenu::Stats::GetPackedBool(luaL_checkinteger(state, 1)));
+			lua_pushboolean(state, VV2::Stats::GetPackedBool(luaL_checkinteger(state, 1)));
 			return 0;
 		}
 

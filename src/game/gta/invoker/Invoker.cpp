@@ -6,7 +6,7 @@
 
 #include "types/script/scrProgram.hpp"
 
-namespace YimMenu
+namespace VV2
 {
 	void NativeInvoker::DefaultHandler(rage::scrNativeCallContext* ctx)
 	{

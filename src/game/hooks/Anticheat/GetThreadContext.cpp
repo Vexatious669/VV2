@@ -1,7 +1,7 @@
 #include "core/hooking/DetourHook.hpp"
 #include "game/hooks/Hooks.hpp"
 
-namespace YimMenu::Hooks
+namespace VV2::Hooks
 {
 	BOOL Anticheat::GetThreadContext(HANDLE hThread, LPCONTEXT lpContext)
 	{

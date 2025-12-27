@@ -5,7 +5,7 @@
 #include "types/network/netMessage.hpp"
 
 
-namespace YimMenu
+namespace VV2
 {
 	class Packet
 	{
