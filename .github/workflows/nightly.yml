@@ -1,4 +1,4 @@
-name: Nightly Build
+name: Intermittent Build
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: nightly
+  group: intermittently
   cancel-in-progress: true
 
 jobs:
@@ -28,9 +28,9 @@ jobs:
             echo "should_run=true" >> $GITHUB_OUTPUT
           fi
 
-  build_nightly:
+  build_intermittently:
     runs-on: windows-latest
-    name: Build Nightly
+    name: Build Intermittently
     needs: check_recent_commit
     if: needs.check_recent_commit.outputs.should_run == 'true'
     outputs:
@@ -53,15 +53,15 @@ jobs:
         run: cmake -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_BUILD_TYPE=RelWithDebInfo -S . -B build -G Ninja
 
       - name: Build 64bit RelWithDebInfo DLL
-        run: cmake --build ./build --config RelWithDebInfo --target YimMenuV2 --
+        run: cmake --build ./build --config RelWithDebInfo --target VV2 --
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: binary
           path: |
-            build/YimMenuV2.dll
-            build/YimMenuV2.pdb
+            build/VV2.dll
+            build/VV2.pdb
 
       - name: Generate Build Info
         id: var
@@ -72,7 +72,7 @@ jobs:
   recreate_release:
     runs-on: ubuntu-latest
     name: Recreate Release
-    needs: build_nightly
+    needs: build_intermittently
     if: needs.check_recent_commit.outputs.should_run == 'true'
     steps:
       - uses: actions/checkout@v4
@@ -84,7 +84,7 @@ jobs:
           script: |
             const owner = context.repo.owner;
             const repo = context.repo.repo;
-            const tag = "nightly";
+            const tag = "intermittently";
 
             // List all releases and find the release by tag
             const releases = await github.rest.repos.listReleases({
@@ -126,15 +126,15 @@ jobs:
       - name: Echo build sha256
         id: build_sha
         run: |
-          sha256sum YimMenuV2.dll > sha256.checksum
+          sha256sum VV2.dll > sha256.checksum
           echo "build_sha=$(cat sha256.checksum)" >> $GITHUB_OUTPUT
           cat sha256.checksum
 
-      - name: Nightly Release
+      - name: Intermittent Release
         uses: softprops/action-gh-release@v2.2.2
         with:
-          name: Nightly [${{ needs.build_nightly.outputs.short_sha }}]
-          tag_name: nightly
+          name: Intermittently [${{ needs.build_intermittently.outputs.short_sha }}]
+          tag_name: intermittently
           body: |
             **This release has been built by Github Actions**
             [Link to build](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
@@ -148,9 +148,9 @@ jobs:
             You can download the build artifacts, generate a SHA256 checksum and compare it with the below binary.
             Build artifacts ARE NOT automatically the same as release assets since release assets can be modified afterwards.
 
-            These are nightly builds of YimMenuV2, they are provided for testing purposes only:
-            - Test if your build environment produces a broken YimMenuV2.dll
-            - Test if source code is out of date and no longer compatible with the current version of Grand Theft Auto V: Enhanced
+            These are intermittent builds of VV2, they are provided for testing purposes only:
+            - Test if your build environment produces a broken VV2.dll
+            - Test if source code is out of date and no longer compatible with the current version of a certain game
 
             If you wish to use this menu as-is you are on your own, no warranty is provided.
 
@@ -159,4 +159,4 @@ jobs:
             ${{ needs.build_nightly.outputs.full_sha }}
             ```
           files: |
-            YimMenuV2.dll
+            VV2.dll
