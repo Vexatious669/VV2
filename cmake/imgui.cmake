@@ -19,7 +19,7 @@ file(GLOB SRC_IMGUI
     "${imgui_SOURCE_DIR}/misc/cpp/imgui_stdlib.*"
 )
 
-add_library(imgui STATIC ${SRC_IMGUI} "../src/game/hooks/Anticheat/GameSkeletonUpdate.cpp")
+add_library(imgui STATIC ${SRC_IMGUI})
 source_group(TREE ${imgui_SOURCE_DIR} PREFIX "imgui" FILES ${SRC_IMGUI})
 target_include_directories(imgui PRIVATE
     "${imgui_SOURCE_DIR}"
