@@ -11,6 +11,7 @@ namespace VV2
 		Classic = 0,
 		Modern,
 		ModernV,
+		Modular,
 	};
 
 	class UIManager

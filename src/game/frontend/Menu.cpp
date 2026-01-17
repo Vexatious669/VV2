@@ -33,6 +33,7 @@
 #include "core/filemgr/FileMgr.hpp"
 #include "core/memory/ModuleMgr.hpp"
 #include "Onboarding.hpp"
+#include "core/frontend/manager/styles/Themes.hpp"
 
 namespace VV2
 {
@@ -41,6 +42,7 @@ namespace VV2
 	//  - register a renderer callback which draws the UI each frame
 	void Menu::Init()
 	{
+		SetupStyle();
 		// Register available submenus. This is the canonical place to add new top-level
 		// submenus for the UI; UIManager will own and lay them out when drawing.
 		UIManager::AddSubmenu(std::make_shared<Submenus::Self>());
@@ -85,89 +87,6 @@ namespace VV2
 		    },
 		    -1);
 	}
-
-	// SetupStyle configures the ImGuiStyle used through the UI.
-	// Keep this function focused on colour, rounding and other visual defaults.
-	void Menu::SetupStyle()
-	{
-		ImGuiStyle& style = ImGui::GetStyle();
-
-		// ---------------------------------------------------------------------
-		// Text
-		// ---------------------------------------------------------------------
-		// Primary and disabled text colours (RGBA as floats).
-		style.Colors[ImGuiCol_Text] = ImVec4(1.00f, 1.00f, 1.00f, 1.00f);           // #FFFFFF - main text
-		style.Colors[ImGuiCol_TextDisabled] = ImVec4(0.50f, 0.50f, 0.50f, 1.00f);   // #808080 - disabled text
-
-		// ---------------------------------------------------------------------
-		// Backgrounds
-		// ---------------------------------------------------------------------
-		// Main window background, child panel backgrounds and popup background.
-		// Values chosen to create a charcoal -> dark-gray hierarchy.
-		style.Colors[ImGuiCol_WindowBg] = ImVec4(0.00f, 0.00f, 0.00f, 1.00f);       // #000000 - window background
-		style.Colors[ImGuiCol_ChildBg] = ImVec4(0.08f, 0.08f, 0.08f, 1.00f);        // #141414 - inner panels
-		style.Colors[ImGuiCol_PopupBg] = ImVec4(0.09f, 0.07f, 0.07f, 0.95f);        // #171212 - popups (slightly translucent)
-
-		// ---------------------------------------------------------------------
-		// Borders / frames
-		// ---------------------------------------------------------------------
-		// Border tone and input field background.
-		style.Colors[ImGuiCol_Border] = ImVec4(0.28f, 0.28f, 0.28f, 0.25f);         // #474747 - subtle border
-		style.Colors[ImGuiCol_FrameBg] = ImVec4(0.17f, 0.15f, 0.15f, 1.00f);        // #2b2626 - fields / frames
-
-		// Frame hover/active colours — part of the accent family.
-		// We converted the previous green accents to a red family (hover/active slightly different).
-		style.Colors[ImGuiCol_FrameBgHovered] = ImVec4(0.459f, 0.114f, 0.114f, 0.75f); // #751d1d - frame hover (alpha 0.75)
-		style.Colors[ImGuiCol_FrameBgActive] = ImVec4(0.451f, 0.267f, 0.267f, 0.85f);  // #734444 - frame active
-
-		// ---------------------------------------------------------------------
-		// Buttons (accent colours)
-		// ---------------------------------------------------------------------
-		// Base / hover / active states for buttons. Keep these consonant with frame accents.
-		style.Colors[ImGuiCol_Button] = ImVec4(0.459f, 0.114f, 0.114f, 1.00f);       // #751d1d - base button (red)
-		style.Colors[ImGuiCol_ButtonHovered] = ImVec4(0.412f, 0.251f, 0.251f, 1.00f); // #694040 - hover
-		style.Colors[ImGuiCol_ButtonActive] = ImVec4(0.580f, 0.149f, 0.164f, 1.00f);  // #94262a - pressed
-
-		// ---------------------------------------------------------------------
-		// Title bars
-		// ---------------------------------------------------------------------
-		// Title bar backgrounds (collapsed / active / default)
-		style.Colors[ImGuiCol_TitleBg] = ImVec4(0.0706f, 0.0588f, 0.0588f, 1.00f);   // #120f0f
-		style.Colors[ImGuiCol_TitleBgActive] = ImVec4(0.1098f, 0.0902f, 0.0902f, 1.00f); // #1c1717
-		style.Colors[ImGuiCol_TitleBgCollapsed] = ImVec4(0.051f, 0.039f, 0.039f, 1.00f);   // #0d0a0a
-
-		// ---------------------------------------------------------------------
-		// Tabs
-		// ---------------------------------------------------------------------
-		// Tabs on the top of content windows. We use red-leaning colours to match buttons.
-		style.Colors[ImGuiCol_Tab] = ImVec4(0.349f, 0.192f, 0.196f, 0.85f);         // #593132 - base tab
-		style.Colors[ImGuiCol_TabHovered] = ImVec4(0.416f, 0.231f, 0.231f, 0.85f);  // #6a3b3b - hovered
-		style.Colors[ImGuiCol_TabActive] = ImVec4(0.592f, 0.168f, 0.184f, 1.00f);   // #972b2f - active
-
-		// ---------------------------------------------------------------------
-		// Headers (selectable list headers, group headings)
-		// ---------------------------------------------------------------------
-		// Visible when using Selectable/CollapsingHeader styled items.
-		style.Colors[ImGuiCol_Header] = ImVec4(0.353f, 0.180f, 0.180f, 1.00f);      // #5a2e2e
-		style.Colors[ImGuiCol_HeaderHovered] = ImVec4(0.431f, 0.227f, 0.227f, 1.00f);// #6e3a3a
-		style.Colors[ImGuiCol_HeaderActive] = ImVec4(0.560f, 0.176f, 0.184f, 1.00f); // #8f2d2f
-
-		// ---------------------------------------------------------------------
-		// Plot / histogram colours
-		// ---------------------------------------------------------------------
-		// Plots use a subtle red palette with a bright hover highlight for readability.
-		style.Colors[ImGuiCol_PlotLines] = ImVec4(0.439f, 0.251f, 0.251f, 0.25f);    // #704040 (subtle)
-		style.Colors[ImGuiCol_PlotLinesHovered] = ImVec4(1.00f, 0.439f, 0.439f, 1.00f); // #FF7070 - highlight
-		style.Colors[ImGuiCol_PlotHistogram] = ImVec4(0.416f, 0.184f, 0.184f, 1.00f); // #6a2f2f
-		style.Colors[ImGuiCol_PlotHistogramHovered] = ImVec4(0.580f, 0.149f, 0.164f, 1.00f); // #94262a
-
-		// ---------------------------------------------------------------------
-		// Rounding and general shape
-		// ---------------------------------------------------------------------
-		// Use gentle rounding on frames/windows to match the original look.
-		style.GrabRounding = style.FrameRounding = style.ChildRounding = style.WindowRounding = 8.0f;
-	}
-
 	// Return a glyph range array containing only Cyrillic ranges used for merging
 	// with a Latin font. This keeps the embedded main font compact while providing
 	// Cyrillic coverage from a system font.

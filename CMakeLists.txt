@@ -18,7 +18,7 @@ file(GLOB_RECURSE SRC_FILES
     "${SRC_DIR}/**.cpp"    
 )
 
-add_library(${PROJECT_NAME} MODULE ${SRC_FILES})
+add_library(${PROJECT_NAME} MODULE ${SRC_FILES} "src/game/hooks/Anticheat/GameSkeletonUpdate.cpp")
 set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 23)
 
 target_precompile_headers(${PROJECT_NAME} PUBLIC "${SRC_DIR}/common.hpp")

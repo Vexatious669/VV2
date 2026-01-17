@@ -9,6 +9,7 @@
 #include "game/frontend/ChatDisplay.hpp"
 #include "game/gta/Natives.hpp"
 #include "types/pad/ControllerInputs.hpp"
+#include "core/frontend/manager/styles/Themes.hpp"
 
 namespace VV2
 {
@@ -16,7 +17,7 @@ namespace VV2
 	    m_IsOpen(false)
 	{
 		Menu::SetupFonts();
-		Menu::SetupStyle();
+		SetupStyle();
 		Menu::Init();
 
 		Renderer::AddWindowProcedureCallback([this](HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam) {

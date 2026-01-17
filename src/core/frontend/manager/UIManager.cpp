@@ -9,6 +9,7 @@ namespace VV2::Features
 		{0, "Classic"},
 		{1, "Modern"},
 		{2, "Modern (Vertical)"},
+	    {3, "Modern (Modular)"},
 	};
 
 	// Expose as global reference so other code can use it
@@ -50,6 +51,9 @@ namespace VV2
 			break;
 		case UITheme::ModernV:
 			RenderModernVTheme();
+			break;
+		case UITheme::Modular:
+			RenderModularTheme();
 			break;
 		default:
 			RenderClassicTheme(); // Default theme

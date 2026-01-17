@@ -1,11 +1,14 @@
 #include "game/pointers/Pointers.hpp"
 #include "game/frontend/Menu.hpp"
 #include "core/frontend/manager/UIManager.hpp"
+#include "game/frontend/submenus/Settings/GUISettings.hpp"
 
 namespace VV2
 {
 	void RenderClassicTheme()
 	{
+		VV2::SyncColorCommandsToStyle();
+
 		float windowWidth = *VV2::Pointers.ScreenResX / 2.5f;
 		float centerX = (*VV2::Pointers.ScreenResX - windowWidth) / 2.0f;
 		float centerY = *VV2::Pointers.ScreenResY / 5.0f;
